@@ -64,7 +64,7 @@
 
 ---
 
-## Bài 5: CÁCH CHẠY CHƯƠNG TRÌNH JAVA BẰNG LỆNH                                      COMMAND LINE
+## Bài 5: CÁCH CHẠY CHƯƠNG TRÌNH JAVA BẰNG LỆNH COMMAND LINE
 
 --- 
 
