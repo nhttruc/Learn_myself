@@ -234,4 +234,10 @@ double x = 1.0 / 2;
 
 int x = (int) 1.0 / 2;
 
+---
+
+## Bài 11: KHAI BÁO BIẾN TRONG JAVA
+
+
+
  
