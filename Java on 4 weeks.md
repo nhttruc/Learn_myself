@@ -162,4 +162,52 @@ public static void main (String[] args)
 
 ---
 
-### Bài 9: KIỂU DỮ LIỆU TRONG JAVA
+## Bài 9: KIỂU DỮ LIỆU TRONG JAVA
+
+### 1. Các kiểu dữ liệu cơ sở
+
+- Kiểu luận lý : ``boolean`` - lưu trữ 2 giá trị *``true``* và *``false``* 
+
+- Kiểu ký tự : ``char`` - dùng lưu trữ một ký tự duy nhất nằm trong dấu nháy đơn `''`  
+
+- Kiểu số: 
+
+        - Kiểu số nguyên: ``byte``, ``short`` , ``int`` , ``long``
+
+        - Kiểu số thực: ``float``, ``double`` ( khả năng lưu trữ của float < double )
+
+            * ***<u>Lưu ý :</u>*** tất cả các số có dấu chấm thập phân mặc định máy hiểu là kiểu double, do đó muốn nó được hiểu là float thì thêm ``f`` đằng sau nó ( Ví dụ: ``3.5`` sẽ được hiểu là **double** nhưng ``3.5f`` sẽ được hiểu là **float** )
+
+### 2. Wrapper Class
+
+| Kiểu cơ sở | Wrapper class |
+| ---------- | ------------- |
+| boolean    | **B**oolean   |
+| char       | **Character** |
+| byte       | **B**yte      |
+| short      | **S**hort     |
+| int        | **Integer**   |
+| long       | **L**ong      |
+| float      | **F**loat     |
+| double     | **D**ouble    |
+
+* **Ý nghĩa Wrapper Class :** đồng thời vừa lưu trữ giá trị, đồng thời cung cấp các thuộc tính cũng như các phương thức để dễ dàng tương tác trên dữ liệu đó
+
+* **Kiểm tra khả năng lưu trữ tối đa - tối thiểu của các kiểu cơ sở :**
+
+```java
+* Tối đa: 
+System.out.println("Max của int = "+Integer.MAX_VALUE);
+System.out.println("Max của double = "+Double.MAX_VALUE);
+* Tối thiểu:
+System.out.println("Min của int = "+Integer.MIN_VALUE);
+System.out.println("Min của double = "+Double.MIN_VALUE);
+```
+
+=> Kết quả chương trình hiển thị:
+
+<img src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/13-22-46-22-wrapper%20class.PNG" title="" alt="wrapper class.PNG" data-align="center">
+
+---
+
+## Bài 10: ÉP KIỂU DỮ LIỆU TRONG JAVA
