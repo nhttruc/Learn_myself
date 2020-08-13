@@ -213,3 +213,25 @@ System.out.println("Min của double = "+Double.MIN_VALUE);
 ---
 
 ## Bài 10: ÉP KIỂU DỮ LIỆU TRONG JAVA
+
+Trong quá trình tính toán đôi khi kết quả trả về không giống với kiểu dữ liệu mong muốn nên ta cần ép kiểu
+
+### 1. Ép kiểu rộng
+
+Đưa từ kiểu có vùng lưu trữ nhỏ lên kiểu có vùng lưu trữ lớn → không sợ mất mát dữ liệu
+
+* Ví dụ: int → long → float → double
+
+double x = (double)1 / 2;
+
+double x = 1.0 / 2;
+
+### 2. Ép kiểu hẹp
+
+Đưa từ kiểu có vùng lưu trữ lớn về kiểu có vùng lưu trữ nhỏ → có thể bị mất dữ liệu
+
+* Ví dụ: double → float → long → int
+
+int x = (int) 1.0 / 2;
+
+ 
