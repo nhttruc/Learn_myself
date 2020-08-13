@@ -40,7 +40,7 @@
 
 ### 3. Tại sao nên lập trình Java
 
-<img title="" src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/09-23-27-04-gjuiewhrtw.jpg" alt="gjuiewhrtw.jpg" width="389" data-align="center">                                                [Top programing languages 2020](https://spectrum.ieee.org/at-work/tech-careers/top-programming-language-2020)
+<img title="" src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/09-23-27-04-gjuiewhrtw.jpg" alt="gjuiewhrtw.jpg" width="389" data-align="center">  [Top programing languages 2020](https://spectrum.ieee.org/at-work/tech-careers/top-programming-language-2020)
 
 - Viết một lần xài mọi nền tảng
 
