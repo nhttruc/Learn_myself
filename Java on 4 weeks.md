@@ -238,6 +238,54 @@ int x = (int) 1.0 / 2;
 
 ## Bài 11: KHAI BÁO BIẾN TRONG JAVA
 
+### 1. Khái niệm về biến
+
+- Biến là đơn vị lưu trữ cơ bản trong lập trình Java
+
+- Biến là các thành phần xác định dữ liệu và được dùng để tham chiếu các giá trị xác định được tạo ra trong chương trình 
+
+- Tất cả các biến khi sử dụng phải được khởi tạo trước
+
+### 2. Cách thức và quy tắc đặt tên biến
+
+**❖ <u>Cách mô tả biến</u> :**
+
+[``datatype``] [``tên biến`` ];              ( Ví dụ: int x; )
+
+Trong đó:
+
+* Datatype : kiểu dữ liệu của biến
+
+* Tên biến: tên biến cần sử dụng
+
+❖ Nếu giá trị của biến không thay đổi trong suốt quá trình hoạt động thì gọi là hằng
+
+**❖ <u>Quy tắc đặt tên biến</u> :** 
+
+* Có thể sử dụng ký tự chữ, ký tự số, dấu gạch dưới ``_`` , và dấu ``$``
+
+* Phải bắt đầu bằng ký tự chữ 
+
+* Không được trùng với từ khoá và từ dành riêng của Java
+
+* Có phân biệt chữ hoa - thường ( Ví dụ: int x; khác int X; nhưng không nên đặt như vầy, dễ gây lộn xộn và nhầm lẫn)
+
+### 3. Khai báo hằng số
+
+* Hằng số sẽ không bị đổi giá trị trong suốt quá trình thực thi phần mềm
+
+* Sử dụng từ khoá là ``final``
+
+☆ Ví dụ :            
+
+```java
+final double PI = 3.14;  → máy sẽ tự hiểu PI = 3.14 là một hằng số
+```
+
+lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đã được khai báo là 1 hằng số và hằng số sẽ không bị thay đổi trong suốt quá trình thực thi.
+
+---
 
 
- 
+
+֍☆❖
