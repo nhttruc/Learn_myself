@@ -286,6 +286,75 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 
 ---
 
+### Bài 12: CÁC PHÉP TOÁN TRONG JAVA
 
+### 1. Phép gán
 
-֍☆❖
+| Ký hiệu |
+|:-------:|
+| =       |
+| +=      |
+| -=      |
+| *=      |
+| /=      |
+
+### 2. Phép toán học cơ bản
+
+| Toán tử | Mô tả            |
+|:-------:|:----------------:|
+| +       | Cộng             |
+| -       | Trừ              |
+| *       | Nhân             |
+| /       | Chia             |
+| %       | Chia lấy phần dư |
+
+### 3. Phép toán so sánh
+
+| Toán tử |
+|:-------:|
+| ==      |
+| !=      |
+| >       |
+| >=      |
+| <       |
+| <=      |
+
+### 4. Phép toán logic
+
+| Toán tử                                                                                |
+|:--------------------------------------------------------------------------------------:|
+| !  (Đúng thành sai, sai thành đúng)                                                    |
+| &&                                                                                     |
+| |\|                                                                                    |
+| ?:  (Toán tử điều kiện hay toán tử ba ngôi, đúng thì làm cái này, sai thì làm cái kia) |
+
+### 5. Phép toán tăng dần ++, giảm dần --
+
+| Toán tử | Mô tả            |
+|:-------:|:----------------:|
+| ++      | Tăng một giá trị |
+| --      | Giảm một giá trị |
+
+☆ Dấu ++ hoặc -- đứng trước biến (Ví dụ: ++x, --y) : gọi là ``Prefix``
+
+☆ Dấu ++ hoặc -- đứng sau biến (Ví dụ: x++, y--) : gọi là `Postfix` 
+
+❖ Tuỳ vào dấu đứng trước hay sau biến mà ta thực hiện tính toán và gán giá trị
+
+* Dấu đứng trước biến: thực hiện tính toán trước rồi mới gán giá trị mới cho biến
+
+* Dấu đứng sau biến: ngược lại
+
+❖ Ví dụ:
+
+<img src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/14-22-56-31-d%E1%BA%A5u%20t%C4%83ng%20gi%E1%BA%A3m%20gi%C3%A1%20tr%E1%BB%8B.PNG" title="" alt="dấu tăng giảm giá trị.PNG" data-align="center">
+
+---
+
+### Bài 13: NHẬP DỮ LIỆU TỪ BÀN PHÍM VỚI SCANNER
+
+### 1. Cách import thư viện
+
+☆ Ta gõ vài ký tự: ``Scan`` rồi tổ hợp phím ``Ctrl + Space`` → Eclipse hiển thị ra danh mục các lớp tương đương → ta chọn Scanner của java.until
+
+֍☆❖→
