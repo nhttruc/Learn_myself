@@ -325,7 +325,7 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 |:--------------------------------------------------------------------------------------:|
 | !  (Đúng thành sai, sai thành đúng)                                                    |
 | &&                                                                                     |
-| |\|                                                                                    |
+|                                                                                        |
 | ?:  (Toán tử điều kiện hay toán tử ba ngôi, đúng thì làm cái này, sai thì làm cái kia) |
 
 ### 5. Phép toán tăng dần ++, giảm dần --
@@ -356,5 +356,245 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 ### 1. Cách import thư viện
 
 ☆ Ta gõ vài ký tự: ``Scan`` rồi tổ hợp phím ``Ctrl + Space`` → Eclipse hiển thị ra danh mục các lớp tương đương → ta chọn Scanner của java.until
+
+### 2. Cách nhập dữ liệu từ Scanner
+
+**❖ Đầu tiên phải tạo đối tượng Scanner để nhập liệu:**
+
+```java
+Scanner sc = new Scanner(System.in);
+// sc là tên biến nên muốn đặt gì cũng được
+```
+
+**❖ Nhập số nguyên (int):**
+
+```java
+System.out.print("Nhập số nguyên:");
+int a = sc.nextInt();
+```
+
+**❖ Nhập số thực (double, float):**
+
+```java
+System.out.println("Nhập số thực double: ");
+double d = sc.nextDouble();
+System.out.println("Nhập số thực float: ");
+float f = sc.nextFloat();
+```
+
+**❖ Nhập chuỗi:**
+
+```java
+System.out.println("Mời bạn nhập một chuỗi: ");
+String chuoi = sc.nextLine();
+```
+
+**❖ Nhập chuỗi và số hoặc các chuỗi liên tục:** ( gây lỗi không nhập được )
+
+Không thể sử dụng chung một Scanner mà mỗi lần vậy nên tạo một Scanner riêng ví dụ như sau: 
+
+```java
+String s = new Scanner(System.in).nextLine();
+int x = new Scanner(System.in).nextInt();
+```
+
+---
+
+## Bài 14: CẤU TRÚC IF, IF ELSE, CẤU TRÚC 3 NGÔI
+
+### 1. Cấu trúc if
+
+```java
+☆ if (<expression>)
+{
+    <statement>;
+}
+```
+
+* expression: biểu thức điều kiện nào đó để kiểm tra nó đúng hoặc sai
+
+* statement : tập các lệnh nằm trong if
+
+<img src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/15-21-48-21-s%C6%A1%20%C4%91%E1%BB%93%20kh%E1%BB%91i%20c%E1%BB%A7a%20if.PNG" title="" alt="sơ đồ khối của if.PNG" data-align="center">
+
+### 2. Cấu trúc if - else
+
+```java
+☆ 
+if (<expression>)
+{
+    <statement 1>;
+}
+else
+{
+    <statement 2>;  
+}
+```
+
+<img src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/15-21-54-25-if%20else.PNG" title="" alt="if else.PNG" data-align="center">
+
+### 3. Cấu trúc 3 ngôi
+
+❖ Có dạng: 
+
+```java
+☆
+<Điều kiện> ? <Biểu thức 1> : <Biểu thức 2>
+```
+
+Nếu ``<Điều kiện>`` đúng thì ``<Biểu thức 1>`` thực hiện, ngược lại ``<Biểu thức 2>`` thực hiện
+
+❖ Là dạng rút gọn của if - else
+
+---
+
+## Bài 15: CẤU TRÚC SWITCH
+
+### 1. Cấu trúc switch tổng quát
+
+```java
+☆ 
+switch (<biến cần kiểm tra>)
+{
+    case <giá trị 1>:
+            <công việc 1>;
+            break;
+    case <giá trị 2>:
+            <công việc 2>;
+            break;
+    ...
+    default:
+            <công việc nếu không thuộc trường hợp nào ở trên>;
+            break;
+}
+```
+
+### 2. Cấu trúc switch biến thể
+
+❖ Trong trường hợp các case nó cùng thực hiện một công việc nào đó thì ta có thể gom nhóm các case này lại thành một
+
+```java
+☆ 
+switch (<biến cần kiểm tra>)
+{
+    case <giá trị 1>:
+    case <giá trị 2>:
+            <công việc X>;
+            break;
+    case <giá trị 3>:
+    case <giá trị 4>:
+            <công việc Y>;
+            break;
+    ...
+    defaul:
+            <công việc nếu không thuộc trường hợp nào ở trên>;
+            break;
+}
+```
+
+---
+
+## Bài 16: VÒNG LẶP WHILE
+
+### Vòng lặp while
+
+**❖ Cú pháp:**
+
+```java
+☆ 
+while (expression)
+{
+    statement;
+}
+```
+
+❖ Để thoát vòng lặp dùng ``break``
+
+❖ Để kết thúc sớm 1 vòng lặp dùng ``continue``
+
+❖ Lệnh trong while có thể không được thực hiện lần nào
+
+---
+
+## Bài 17: VÒNG LẶP DO ... WHILE
+
+### Vòng lặp do ... while
+
+**❖ Cú pháp :**
+
+```java
+☆ 
+do
+{
+    statement;
+}
+while (expression);
+```
+
+❖ Để thoát vòng lặp dùng ``break``
+
+❖ Để kết thúc sớm 1 vòng lặp dùng ``continue``
+
+❖ Nhận xét: vòng lặp được chạy ít nhất 1 lần
+
+---
+
+## Bài 18: VÒNG LẶP FOR
+
+### Vòng lặp for
+
+**❖ Cú pháp:** 
+
+```java
+☆
+for (Exp1; Exp2; Exp3)
+{
+    statement;
+}
+```
+
+❖ Để thoát vòng lặp dùng ``break``
+
+❖ Để kết thúc sớm 1 vòng lặp dùng ``continue``
+
+---
+
+## Bài 19: Ý NGHĨA VÀ CÁCH SỬ DỤNG BREAK VÀ CONTINUE TRONG CÁC VÒNG LẶP
+
+### 1. Cách dùng break
+
+❖ ``break`` dùng để thoát khỏi vòng lặp chứa nó trực tiếp (không làm bất kỳ dòng lệnh nào bên dưới nữa). Thường khi ta đạt được giới hạn nào đó hoặc muốn thoát khỏi vòng lặp vĩnh cửu ta sẽ dùng ``break``
+
+### 2. Cách dùng continue
+
+❖ ``continue`` dùng để bỏ qua các lệnh bên dưới và chuyển qua lần lặp tiếp theo
+
+---
+
+## Bài 20: BÀI TẬP RÈN LUYỆN GIẢI PHƯƠNG TRÌNH BẬC 2
+
+---
+
+## Bài 21: BÀI TẬP RÈN LUYỆN 2 GIẢI TOÁN HỌC
+
+---
+
+## Bài 22: BÀI TẬP RÈN LUYỆN 3 TÍNH DÃY TOÁN HỌC
+
+---
+
+## Bài 23: DANH SÁCH CÁC BÀI TẬP TỰ RÈN LUYỆN 1
+
+---
+
+## Bài 24: KHÁI NIỆM VỀ BIỆT LỆ
+
+### 1. Tại sao phải xử lý biệt lệ
+
+❖ Trong quá trình thực thi phần mềm sẽ có những lỗi phát sinh mà trong quá trình coding ta đã dự đoán (dự đoán được rồi mà chưa biết cách sửa chẳng hạn) hoặc chưa dự đoán được
+
+❖ Việc kiểm soát các biệt lệ giúp cho phần mềm tiếp tục hoạt động nếu lỗi xảy ra hoặc cũng đưa ra các gợi ý bên phía User Problem
+
+ 
 
 ֍☆❖→
