@@ -829,4 +829,54 @@ catch (ParseException e)
 
 **❖ Cú pháp:**        ``Math.<tên phương thức>``
 
+---
+
+## Bài 32: THƯ VIỆN XỬ LÝ SỐ NGẪU NHIÊN
+
+**❖ Random : số nguyên**
+
+```java
+☆
+Random rd = new Random();
+int x = rd.nextInt(n);
+❖ Sẽ trả về số ngẫu nhiên từ [0...n-1]
+❖ Ví dụ:
+[0...100] → rd.nextInt(101)
+[-100...100] → -100 + rd.nextInt(201) // lý giải như sau: ta có maximum của 201 là 200, 200 - 100 = 100 là bằng giới hạn dưới; minimum của 201 là 0, 0 + (-100) = -100 bằng với giới hạn trên
+[-100...-50] → -100 + rd.nextInt(51)
+```
+
+**❖ Random : số thực `[0 ... 1)`**
+
+```java
+☆
+Random rd = new Random();
+double x = rd.nextDouble();
+❖ Ví dụ: 
+[0...10) → rd.nextDouble()*10;
+```
+
+---
+
+## Bài 33: THƯ VIỆN XỬ LÝ CHUỖI
+
+### 1. StringBuilder
+
+❖ Là một lớp dùng quản lý chuỗi có thể thay đổi kích thước và nội dung
+
+```java
+☆ Khởi tạo:
+StringBuilder() // khởi tạo mặc định, không đối số. Có thể lưu giữ được 16 ký tự
+StringBuilder(int capacity) // Tạo ra một đối tượng. Có thể lưu giữ được capacity ký tự
+StringBuilder(String s) // Tạo ra một đối tượng. Lấy thông tin từ chuỗi s
+
+☆ Phương thức:
+append() // nối chuỗi
+insert() // chèn chuỗi 
+delete() // xoá chuỗi
+reverse() // đảo chuỗi
+```
+
+
+
 ☆❖→
