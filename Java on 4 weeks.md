@@ -811,4 +811,22 @@ catch (ParseException e)
 }
 ```
 
+---
+
+## Bài 31: THƯ VIỆN TOÁN HỌC
+
+| Tên phương thức | Mô tả                                  |
+| --------------- | -------------------------------------- |
+| PI              | Trả về giá trị PI                      |
+| abs(a)          | Trị tuyệt đối của a                    |
+| max(a, b)       | Trả về giá trị lớn nhất giữa a và b    |
+| min(a, b)       | Trả về giá trị nhỏ nhất giữa a và b    |
+| sqrt(a)         | Căn bậc 2 của a                        |
+| pow(x, y)       | Luỹ thừa x mũ y                        |
+| sin(radian)     | Tính sin, radian = Math.PI * góc / 180 |
+| cos(radian)     | Tính cos                               |
+| tan(radian)     | Tính tan                               |
+
+**❖ Cú pháp:**        ``Math.<tên phương thức>``
+
 ☆❖→
