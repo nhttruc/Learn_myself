@@ -595,4 +595,220 @@ for (Exp1; Exp2; Exp3)
 
 ❖ Việc kiểm soát các biệt lệ giúp cho phần mềm tiếp tục hoạt động nếu lỗi xảy ra hoặc cũng đưa ra các gợi ý bên phía User Problem
 
-֍☆❖→
+### 2. Các cấp độ lỗi
+
+### 3. Cách hành xử với lỗi
+
+❖ Unchecked error: thấy lỗi nhưng không quan tâm
+
+❖ Checked error: có lỗi xảy ra và ta kiểm soát lỗi đó (nên)
+
+---
+
+## Bài 25: HỌC CÁCH SỬ DỤNG TRY ... CATCH
+
+### **Cú pháp**
+
+```java
+☆
+try 
+{
+    // lệnh
+}
+catch (Exception ex)
+{
+    ex.printStackTrace();
+}
+```
+
+❖ Khi có lỗi xảy ra vẫn tiếp tục mà không tắt ngang phần mềm, nếu có câu lệnh phía sau ``try ... catch`` thì vẫn chạy bình thường
+
+❖ ``try ... catch`` là trường hợp chung, giúp hiển thị tất cả các lỗi
+
+---
+
+## Bài 26: Ý NGHĨA CỦA TỪ KHOÁ FINALLY
+
+``finally`` nối đuôi phía sau ``try ... catch``
+
+```java
+☆ 
+try
+{
+    // lệnh
+}
+catch (Exception ex)
+{
+    ex.printStackTrace();
+}
+finally
+{
+    System.out.println("finally"); // câu này chỉ là ví dụ chứ không bắt buộc ghi
+}
+```
+
+❖ Cho dù quá trình có lỗi hay không lỗi xảy ra thì ``finally`` vẫn được thực thi
+
+---
+
+## Bài 27: Ý NGHĨA CỦA THROW
+
+```java
+☆
+public static void func() throws Exception // func() là hàm ví dụ
+{
+    try 
+    {
+    // lệnh
+    }
+    catch (Exception ex)
+    {
+        throw ex;
+    }
+}
+```
+
+❖ Sử dụng ví dụ trên để gọi cho dễ trong hàm **func()** phải gọi ``try ... catch``  ở hàm main khi gọi hàm **func()** cũng phải gọi ``try ... catch`` lần nữa.
+
+❖ Bài này hơi khó hiểu, nếu cần thì xem clip lại cho dễ
+
+---
+
+## Bài 28: GỠ LỖI BẰNG CÔNG CỤ DEBUG
+
+### 1. Cách đặt break point
+
+❖ Muốn dừng lại kiểm tra lệnh ở dòng nào thì tạo break point ở dòng đó bằng cách đặt con trỏ văn bản đến bất kỳ vị trí nào ở dòng ta muốn đặt break point → trên thanh công cụ chọn ``Run`` → ``Toggle Breakpoint`` hoặc nhấn tổ hợp phím ``Ctrl + Shift + B``
+
+### 2. Cách debug từng dòng
+
+❖ Vào ``Run`` → ``Debug`` hoặc nhấn ``F11`` (phải tạo break point trước mới debug được, ko thì debug vô nghĩa)
+
+❖ Chương trình sẽ dừng ngay dòng có break point
+
+❖ Ý nghĩa các phím:
+
+* ``F5`` (Step Into) : đi sâu vào từng dòng lệnh bên trong (nếu có hàm thì đi sâu vào từng dòng lệnh của hàm)
+
+* ``F6`` (Step Over) : đi ngang qua (nếu có hàm thì đi ngang qua hàm)
+
+* ``F8`` (Resume) : ngưng debug, quay trở lại chương trình chính
+
+### 3. Cách xem giá trị trong khi debug
+
+❖ Bôi đen biến cần xem → chuột phải → chọn ``Watch`` → hiển thị cho ta cửa sổ bên phải màn hình để xem giá trị của biến (ở cửa sổ này có nút ``Add new expression`` có thể nhấn vào và gõ bất kỳ biểu thức hay biến nào bạn muốn kiểm tra)
+
+---
+
+## Bài 29: THƯ VIỆN XỬ LÝ DỮ LIỆU SỐ
+
+ ❖ Thư viện xử lý dữ liệu số : ``DecimalFormat``
+
+* Ví dụ cách làm : 
+
+```java
+DecimalFormat dcf = new DecimalFormat("#.##") // lấy 2 số lẻ sau dấu chấm
+double x = 3.0/8;
+System.out.println(x); // trường hợp này x hiển thị ra bình thường có thể có nhiều số lẻ sau dấu chấm
+System.out.println(dcf.format(x)); // x hiển thị lấy 2 số lẻ sau dấu chấm
+```
+
+❖ Làm ngăn cách chữ số:
+
+* Ví dụ cứ 3 chữ số ngăn cách nhau bởi một dấu phẩy :
+
+```java
+DecimalFormat dcf = new DecimalFormat("#,###");
+DecimalFormatSymbols dfs = new DecimalFormatSymbols(Locale.getDefault());
+dfs.setGroupingSeparator(','); // muốn thay dấu khác thì thay ở đây
+int x = 1243532523;
+dcf.setDecimalFormatSymbols(dfs);
+System.out.println(dcf.format(x));
+```
+
+---
+
+## Bài 30: THƯ VIỆN XỬ LÝ NGÀY THÁNG
+
+### 1. Calendar
+
+❖ Lấy ngày tháng năm hiện tại :
+
+```java
+Calendar cal = Calendar.getInstance(); // giúp truy xuất được ngày tháng năm hiện tại của máy tính 
+```
+
+❖ Lấy từng tiêu chí:
+
+```java
+cal.get(Calendar.YEAR); // lấy năm
+cal.get(Calendar.MONTH); // lấy tháng
+cal.get(Calendar.DAY_OF_MONTH); // lấy ngày
+```
+
+❖ Thay đổi tiêu chí:
+
+```java
+cal.set(Calendar.YEAR,2001); // đổi năm _ tương tự với mấy cái khác
+```
+
+❖Lấy ngày tháng năm:
+
+```java
+Date t = cal.getTime();
+```
+
+### 2. SimpleDateFormat
+
+❖ Dùng để định dạng cách hiển thị ngày tháng năm
+
+* Ví dụ :
+
+```java
+☆
+Calendar cal = Calendar.getInstance();
+Date t = cal.getTime();
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+System.out.println(sdf.format(t));
+```
+
+❖ Ngoài ra còn có định dạng giờ phút giây:
+
+* ``HH`` : định dạng 24 giờ
+
+* ``hh`` : định dạng 12 giờ
+
+* ``mm`` : phút
+
+* ``ss`` : giây
+
+* ``aaa`` : giúp hiện thị AM hay PM của giờ
+
+### 3. Code để tính tuổi
+
+☆
+
+```java
+Calendar cal = Calendar.getInstance();
+int yearNow = cal.get(Calendar.YEAR);
+
+System.out.println("Mời bạn nhập năm sinh (dd/MM/yy) : ");
+String ns = new Scanner(System.in).nextLine();
+
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+try
+{
+    Date birthday = sdf.parse(ns);
+    cal.setTime(birthday);
+    int yearNs = cal.get(Calendar.YEAR);
+
+    int tuoi = yearNow - yearNs;
+    System.out.println("Bạn "+tuoi+" tuổi");
+}
+catch (ParseException e)
+{
+    e.printStackTrace();
+}
+```
+
+☆❖→
