@@ -875,6 +875,8 @@ append() // nối chuỗi
 insert() // chèn chuỗi 
 delete() // xoá chuỗi
 reverse() // đảo chuỗi
+
+Còn có thêm 1 cái toString() là để lấy chuỗi ra
 ```
 
 ❖ Ví dụ cách dùng:
@@ -884,6 +886,11 @@ StringBuilder sb = new StringBuilder(); // khởi tạo vầy nè
 sb.append("Welcome to "); // rồi muốn gọi phải làm vầy nè, chứ không có append() không đâu
 sb.append("Java "); 
 sb.append("world");
+String s = sb.toString();
+System.out.println(s);
+* hoặc xuất làm vầy cũng được:
+System.out.println(sb.toString());
+* hoặc 
 System.out.println(sb);
 
 → Kết quả sẽ là : Welcome to Java world
@@ -1291,6 +1298,63 @@ for (i = s.length(); i >= 0; i--)
 s = s.substring(0, vtRight);
 System.out.println(s);
 ```
+
+---
+
+## Bài 39: HÀM SO SÁNH CHUỖI
+
+### 1. compareTo
+
+❖ So sánh có phân biệt chữ hoa - thường
+
+```java
+☆
+String s1 = "Tuấn Kiệt";
+String s2 = "Thanh Trúc";
+int x = s1.compareTo(s2);
+
+→ 
+* Bằng 0 khi s1 = s2
+* >0 khi s1 > s2
+* <0 khi s1 < s2
+```
+
+### 2. compareToIgnoreCase
+
+❖ So sánh không phân biệt hoa - thường
+
+```java
+Tương tự như cái kia thôi:
+* Bằng 0 khi s1 = s2
+* >0 khi s1 > s2
+* <0 khi s1 < s2
+```
+
+---
+
+## Bài 40: CÁCH NỐI VÀ CHÈN CHUỖI
+
+### 1. Cách nỗi chuỗi bằng dấu +
+
+```java
+String s = "Obama";
+s = s+" Putin";
+System.out.println(s);
+
+→ Obama Putin
+```
+
+* **Lưu ý :** trong quá trình lập trình mà xử lý chuỗi, nối chuỗi nhiều như lấy dữ liệu từ internet hay đọc dữ liệu từ một file thì ta không nên dùng dấu cộng. Vì mỗi khi dùng dấu cộng nó sẽ phát sinh ra một đối tượng chuỗi => rất tốn bộ nhớ, chạy rất chậm (test trên tập dữ liệu lớn sẽ thấy được sự bất lợi)
+
+* Ta có giải pháp khắc phục này chính là ở phần 2
+
+### 2. Cách nối chuỗi bằng StringBuilder : append()
+
+( Bài 33 học rồi)
+
+### 3. Cách chèn chuỗi: insert()
+
+(Ở bài 33 có luôn)
 
 ---
 
