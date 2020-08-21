@@ -877,6 +877,351 @@ delete() // xoá chuỗi
 reverse() // đảo chuỗi
 ```
 
+❖ Ví dụ cách dùng:
+
+```java
+StringBuilder sb = new StringBuilder(); // khởi tạo vầy nè
+sb.append("Welcome to "); // rồi muốn gọi phải làm vầy nè, chứ không có append() không đâu
+sb.append("Java "); 
+sb.append("world");
+System.out.println(sb);
+
+→ Kết quả sẽ là : Welcome to Java world
+```
+
+```java
+❖ Đối với insert(): 
+sb.insert(11, "xxx"); 
+/* 
+có nghĩa là ở vị trí thứ 11 của chuỗi hiện tại, ta chèn ký tự xxx vào 
+(như trong chuỗi thì ký tự đầu tiên sẽ là 0 chứ không phải 1) 
+Lấy ví dụ trên thì xxx sẽ được thêm vào như sau Welcome to xxx
+*/
+❖ Đối với delete():
+sb.delete(11, 14);
+/*
+có nghĩa là xoá từ 3 phần tử từ 11
+Như trên sẽ xoá được xxx
+*/ 
+```
+
+### 2. StringTokenizer
+
+❖ Là một lớp được dùng để tách chuỗi theo một yêu cầu nào đó
+
+```java
+❖ Ví dụ tách chuỗi theo khoảng trắng:
+String s = "Lập trình Java";
+StingTokenizer st = new StringTokenizer(s); // mặc định không có đối số thứ 2 thì tách theo khoảng trắng
+while (st.hasMoreTokens())
+    System.out.println(sr.nextToken());
+
+❖ Ví dụ tách chuỗi theo yêu cầu khác khoảng trắng, ở đây là dấu chấm phẩy:
+s = "Lập;trình;Java";
+st = new StringTokenizer(s, ";");
+while (st.hasMoreTokens())
+    System.out.println(sr.nextToken());
+
+❖ Ở đối số thứ 2 ta không chỉ có thể tách theo 1 quy luật, mà ta có thể tách theo nhiều quy luật khác nhau:
+Ví dụ như vừa tách theo dấu ";" vừa tách theo dấu "!" ta làm như sau:
+String s = "Obama;Putin;Kim Jong Un!Thanh Truc";
+StringTokenizer token2 = new StringTokenizer(s,";!"); // ở đối số thứ 2 cứ khai báo 2 dấu là được, không có gì khó khăn
+while (token2.hasMoreTokens())
+{
+    String value = token2.nextToken();
+    System.out.println(value);
+}
+/*
+Tương tự như ví dụ trên, nếu ta muốn thêm tách nhau bằng khoảng trắng 
+thì ở đối số thứ 2 ta thêm vào (s, ";! ") 
+vậy là xong
+*/
+```
+
+---
+
+## Bài 34: GIỚI THIỆU CHUỖI TRONG JAVA
+
+### 1. Cách khai báo và sử dụng chuỗi
+
+❖ Khai báo chuỗi :
+
+* Trong Java, String là lớp quản lý dữ liệu văn bản
+
+* Khai báo:
+
+```java
+☆
+String s1 = new String(); // tạo ra 1 đối tượng s1 có khả năng lưu chuỗi
+String s = "OBAMA";
+* s sẽ quản lý phần tử đầu tiên, ví dụ như trên, s quản lý phần tử đầu tiên là O
+```
+
+### 2. Kiểm tra chiều dài chuỗi
+
+❖ Ví dụ: 
+
+```java
+☆
+String s = "OBAMA";
+int len = s.length(); // len sẽ bằng 5
+* khoảng trắng trong chuỗi thì cũng được xem như một ký tự
+```
+
+### 3. Ví dụ chạy chương trình
+
+❖ Ta chạy chương trình như sau: (xem kỹ hơn ở clip 34)
+
+* **<u>Ví dụ 1 : </u>**
+
+```java
+☆
+String s1 = new String();
+String s2 = new String("Obama ");
+String s3 = "Obama";
+System.out.println("Chiều dài của s1 = "+s1.length());
+System.out.println("Chiều dài của s2 = "+s2.length());
+System.out.println("Chiều dài của s3 = "+s3.length());
+
+→ Kết quả chương trình khi chạy hiển thị:
+Chiều dài của s1 = 0
+Chiều dài của s2 = 6
+Chiều dài của s3 = 5
+```
+
+* **<u>Ví dụ 2 :</u>**
+
+```java
+☆
+String s1 = new String();
+String s2 = new String("Obama");
+String s3 = "Obama";
+System.out.println("Chiều dài của s1 = "+s1.length());
+System.out.println("Chiều dài của s2 = "+s2.length());
+System.out.println("Chiều dài của s3 = "+s3.length());
+if (s2 == s3)
+{
+    System.out.println("s2 bằng s3");
+}
+else 
+{
+    System.out.println("s2 không bằng s3");
+}
+
+→ Kết quả là:
+Chiều dài của s1 = 0
+Chiều dài của s2 = 5
+Chiều dài của s3 = 5
+s2 không bằng s3
+```
+
+→ Ta thấy là chuỗi s2 và s3 đều có cùng giá trị là ``Obama`` , tuy nhiên kết quả lại là s2 không bằng s3, lý giải như sau: vì đây là 2 đối tượng nằm trên 2 ô nhớ khác nhau nên nó khác nhau hoàn toàn
+
+* Ta làm như vầy thì khác nè:
+
+```java
+☆
+String s1 = new String();
+String s2 = new String("Obama");
+String s3 = "Obama";
+System.out.println("Chiều dài của s1 = "+s1.length());
+System.out.println("Chiều dài của s2 = "+s2.length());
+System.out.println("Chiều dài của s3 = "+s3.length());
+if (s2 == s3)
+{
+    System.out.println("s2 bằng s3");
+}
+else 
+{
+    System.out.println("s2 không bằng s3");
+}
+if (s2.equals(s3))
+{
+    System.out.println("giá trị s2 bằng s3");
+}
+else 
+{
+    System.out.println("giá trị s2 không bằng s3");    
+}
+
+→ Kết quả là:
+Chiều dài của s1 = 0
+Chiều dài của s2 = 5
+Chiều dài của s3 = 5
+s2 không bằng s3
+giá trị s2 bằng s3
+```
+
+→ Ta thấy giá trị của s2 bằng s3 nhưng s2 không bằng s3 do nó nằm trên 2 ô nhớ khác nhau
+
+→ Muốn so sánh giá trị ta dùng hàm ``equals``
+
+---
+
+## Bài 35: HÀM TÌM CHUỖI
+
+### 1. indexOf
+
+❖ Trả về vị trí đầu tiên tìm thấy, không tìm thấy trả về `-1`
+
+```java
+☆
+String s = "Hello everybody !";
+int i = 0
+i = s.indexOf("e"); // trả về i = 1 (vị trí đầu tiên tìm thấy e)
+```
+
+### 2. lastIndexOf
+
+❖ Trả về vị trí cuối cùng tìm thấy, không thấy cũng trả về `-1`
+
+```java
+☆
+String s = "Hello everybody !";
+int i = 0;
+i = s.lastIndexOf("e"); // trả về i = 8
+```
+
+* Lưu ý là không chỉ tìm được ký tự mà ta cũng tìm được 1 từ ví dụ như trong chuỗi s tìm "body" thì vẫn được, nó sẽ trả về vị trí của từ đầu tiên trong chuỗi ta tìm, ví dụ như từ "body" thì trả về vị trí của từ b trong body
+
+### 3. contains
+
+❖ Kiểm tra chuỗi con có tồn tại trong chuỗi s, có trả về `true` , không trả về `false`
+
+```java
+☆
+String s = "Taurus love Zen";
+if (s.contains("love") == true)
+    System.out.println("có chữ love trong chuỗi");
+else
+    System.out.println("không có chữ love trong chuỗi");
+
+→ Kết quả sẽ là:
+có chữ love trong chuỗi
+```
+
+### 4. Cách tìm số lượng từ bất kỳ có trong chuỗi
+
+❖ Sử dụng StringTokenizer: 
+
+* Với `contains`:
+
+```java
+☆
+String s = "Lê Tuấn Kiệt, Thanh Trúc yêu anh yêu anh yêu anh !!!";
+StringTokenizer token = new StringTokenizer(s);
+int dem = 0;
+while (token.hasMoreTokens())
+{
+    String value = token.nextToken();
+    if (value.contains("anh"))
+    {
+        dem++;
+    }
+}
+System.out.println("Tìm thấy "+dem+" lần từ [anh]");
+
+→ Kết quả hiển thị :
+Tìm thấy 4 lần từ [anh]
+```
+
+* Với `equals`: 
+
+```java
+```java
+☆
+String s = "Lê Tuấn Kiệt, Thanh Trúc yêu anh yêu anh yêu anh !!!";
+StringTokenizer token = new StringTokenizer(s);
+int dem = 0;
+while (token.hasMoreTokens())
+{
+    String value = token.nextToken();
+    if (value.equals("anh"))
+    {
+        dem++;
+    }
+}
+System.out.println("Tìm thấy "+dem+" lần từ [anh]");
+
+→ Kết quả hiển thị :
+Tìm thấy 3 lần từ [anh]
+```
+
+→ Kết quả trên là dễ hiểu vì với `contains` giúp ta tìm được cả chuỗi con có tồn tại trong chuỗi (trong từ "Thanh" có tồn tại từ "anh" cần tìm ), nhưng với `equals` nó chỉ tìm đúng từ "anh" mà nó cần tìm 
+
+---
+
+## Bài 36: HÀM TRÍCH LỌC CHUỖI
+
+### **❖ subString**
+
+1. **Một đối số :** Lấy bên phải chuỗi
+
+```java
+☆
+String s = "Xin chào Obama! Tui là Putin";
+String s2 = s.substring(9);
+System.out.println(s2);
+
+→ Kết quả hiển thị :
+Obama! Tui là Putin
+
+* Từ vị trí số 9 là vị trị của O lấy đến hết chuỗi
+* Cẩn thận nếu vượt quá giới hạn chuỗi thì sẽ bị báo lỗi ngay, ví dụ như chuỗi dài 11 nhưng lại lấy subString(13) là không được liền
+```
+
+2. **Hai đối số :** Lọc giữa chuỗi
+
+```java
+☆
+String s = "Xin chào Obama! Tui là Putin";
+String s3 = s.substring(9,14); → có nghĩa là lấy muốn lấy 5 ký tự thì 14 - 9 = 5
+System.out.println(s3);
+
+→ Kết quả hiển thị :
+Obama
+```
+
+---
+
+## Bài 37: HÀM ĐỔI CHUỖI
+
+### 1. replace
+
+Đổi tất cả chuỗi bên trong thoả mãn một tính chất nào đó thành chuỗi mới
+
+```java
+☆
+String s = "Xin chào Obama! Tui là Putin";
+s = s.replace("Obama", "Kim Jong Un"); // đối số đầu tiên là chuỗi cũ, đối số thứ 2 là chuỗi mới
+System.out.println(s);
+
+→ Kết quả hiển thị:
+Xin chào Kim Jong Un! Tui là Putin
+```
+
+* Nếu trong chuỗi này có nhiều chữ Obama thì tất cả đều được đổi thành Kim Jong Un
+
+### 2. replaceFirst
+
+Chỉ đổi chuổi đầu tiên thoả mãn tính chất thành chuỗi mới
+
+```java
+☆
+String s = "Obama Xin chào Michelle Obama";
+s = s.replaceFirst("Obama", "Putin"); // phải gán chuỗi mới cho s nè, không thì nó cũng như không hà
+System.out.println(s);
+
+→ Kết quả hiển thị:
+Putin Xin chào Michelle Obama
+```
+
+---
+
+## Bài 38: HÀM XOÁ KHOẢNG TRẮNG DƯ THỪA
+
+### ❖ trim : xoá khoảng trắng dư thừa bên trái và bên phải chuỗi
+
 
 
 ☆❖→
