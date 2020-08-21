@@ -325,7 +325,7 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 |:--------------------------------------------------------------------------------------:|
 | !  (Đúng thành sai, sai thành đúng)                                                    |
 | &&                                                                                     |
-|                                                                                        |
+| |\|                                                                                    |
 | ?:  (Toán tử điều kiện hay toán tử ba ngôi, đúng thì làm cái này, sai thì làm cái kia) |
 
 ### 5. Phép toán tăng dần ++, giảm dần --
@@ -1221,6 +1221,78 @@ Putin Xin chào Michelle Obama
 ## Bài 38: HÀM XOÁ KHOẢNG TRẮNG DƯ THỪA
 
 ### ❖ trim : xoá khoảng trắng dư thừa bên trái và bên phải chuỗi
+
+```java
+String s = "       Nguyễn Huỳnh Thanh Trúc         ";
+System.out.println(s);
+System.out.println("=> Chiều dài = " +s.length());
+s = s.trim();
+System.out.println(s);
+System.out.println("=> Chiều dài = " +s.length());
+
+→ Kết quả hiển thị: 
+       Nguyễn Huỳnh Thanh Trúc         
+=> Chiều dài = 39
+Nguyễn Huỳnh Thanh Trúc
+=> Chiều dài = 23
+```
+
+Thật sự là nó chỉ xoá khoảng trắng bên phải và trái chuỗi thôi, không xoá giữa chuỗi, ví dụ như có khoảng trắng ở giữa chuỗi nó vẫn giữ nguyên nha, như sau: 
+
+```java
+String s = "       Nguyễn      Huỳnh       Thanh     Trúc         ";
+System.out.println(s);
+System.out.println("=> Chiều dài = " +s.length());
+s = s.trim();
+System.out.println(s);
+System.out.println("=> Chiều dài = " +s.length());
+
+→ Kết quả hiển thị:
+       Nguyễn      Huỳnh       Thanh     Trúc         
+=> Chiều dài = 54
+Nguyễn      Huỳnh       Thanh     Trúc
+=> Chiều dài = 38
+```
+
+### ❖ Xoá khoảng trắng bên trái hoặc bên phải
+
+* **Xoá khoảng trắng bên trái :**
+
+```java
+String s = "     Nguyễn Huỳnh Thanh Trúc        ";
+int vtLeft = 0;
+int i = 0; // khai báo i ở ngoài vì có thể i không đúng để chạy vòng for luôn, nên có giá trị i = 0 ở ngoài nha
+for (i = 0; i < s.length(); i++)
+{
+    char c = s.charAt(i); // charAt() là lệnh để lấy ký tự
+    if (c == ' ')
+        vtLeft = i;
+    else 
+        break;
+}
+s = s.substring(i);
+System.out.println(s);
+```
+
+* **Xoá khoảng trắng bên phải :**
+
+```java
+String s = "     Nguyễn Huỳnh Thanh Trúc        ";
+int vtRight = 0;
+int i = 0; // khai báo i ở ngoài vì có thể i không đúng để chạy vòng for luôn, nên có giá trị i = 0 ở ngoài nha
+for (i = s.length(); i >= 0; i--)
+{
+    char c = s.charAt(i); // charAt() là lệnh để lấy ký tự
+    if (c == ' ')
+        vtRight = i;
+    else 
+        break;
+}
+s = s.substring(0, vtRight);
+System.out.println(s);
+```
+
+---
 
 
 
