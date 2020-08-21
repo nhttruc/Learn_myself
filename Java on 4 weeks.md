@@ -1358,6 +1358,14 @@ System.out.println(s);
 
 ---
 
+## Bài 41: CÁCH TÁCH CHUỖI
 
+### 1. Cách tách chuỗi với split
+
+❖ Các version JDk >= 1.4 có hỗ trợ split để tách chuỗi
+
+```java
+
+```
 
 ☆❖→
