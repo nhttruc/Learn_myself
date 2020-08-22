@@ -1,6 +1,6 @@
-# Java cơ bản trong 4 tuần
+# ❀ Java cơ bản trong 4 tuần ❀
 
-## Bài 1: GIỚI THIỆU NGÔN NGỮ LẬP TRÌNH `Java`
+## ✿ Bài 1: GIỚI THIỆU NGÔN NGỮ LẬP TRÌNH `Java`
 
 ### 1. Lịch sử ra đời
 
@@ -54,27 +54,27 @@
 
 ---
 
-## Bài 2: CÁC CÔNG CỤ LẬP TRÌNH VỚI JAVA
+## ✿ Bài 2: CÁC CÔNG CỤ LẬP TRÌNH VỚI JAVA
 
 --- 
 
-## Bài 3: CÀI ĐẶT JDK
+## ✿ Bài 3: CÀI ĐẶT JDK
 
 ---
 
-## Bài 4: CÀI ĐẶT BIẾN MÔI TRƯỜNG CHO JAVA
+## ✿ Bài 4: CÀI ĐẶT BIẾN MÔI TRƯỜNG CHO JAVA
 
 ---
 
-## Bài 5: CÁCH CHẠY CHƯƠNG TRÌNH JAVA BẰNG LỆNH COMMAND LINE
+## ✿ Bài 5: CÁCH CHẠY CHƯƠNG TRÌNH JAVA BẰNG LỆNH COMMAND LINE
 
 --- 
 
-## Bài 6: CÁCH CÀI ĐẶT VÀ SỬ DỤNG CÔNG CỤ ECLIPSE
+## ✿ Bài 6: CÁCH CÀI ĐẶT VÀ SỬ DỤNG CÔNG CỤ ECLIPSE
 
 ---
 
-## Bài 7: CÁCH XUẤT DỮ LIỆU RA MÀN HÌNH
+## ✿ Bài 7: CÁCH XUẤT DỮ LIỆU RA MÀN HÌNH
 
 ### 1. Thư viện xuất dữ liệu trong
 
@@ -110,7 +110,7 @@ Có thể viết tắt là ``sysout`` rồi gõ tổ hợp phím ``ctrl`` + ``sp
 
 ---
 
-## Bài 8: CÁCH GHI CHÚ LỆNH QUAN TRỌNG TRONG JAVA
+## ✿ Bài 8: CÁCH GHI CHÚ LỆNH QUAN TRỌNG TRONG JAVA
 
 ### 1. Ghi chú một dòng
 
@@ -164,7 +164,7 @@ public static void main (String[] args)
 
 ---
 
-## Bài 9: KIỂU DỮ LIỆU TRONG JAVA
+## ✿ Bài 9: KIỂU DỮ LIỆU TRONG JAVA
 
 ### 1. Các kiểu dữ liệu cơ sở
 
@@ -212,7 +212,7 @@ System.out.println("Min của double = "+Double.MIN_VALUE);
 
 ---
 
-## Bài 10: ÉP KIỂU DỮ LIỆU TRONG JAVA
+## ✿ Bài 10: ÉP KIỂU DỮ LIỆU TRONG JAVA
 
 Trong quá trình tính toán đôi khi kết quả trả về không giống với kiểu dữ liệu mong muốn nên ta cần ép kiểu
 
@@ -236,7 +236,7 @@ int x = (int) 1.0 / 2;
 
 ---
 
-## Bài 11: KHAI BÁO BIẾN TRONG JAVA
+## ✿ Bài 11: KHAI BÁO BIẾN TRONG JAVA
 
 ### 1. Khái niệm về biến
 
@@ -286,7 +286,7 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 
 ---
 
-### Bài 12: CÁC PHÉP TOÁN TRONG JAVA
+## ✿ Bài 12: CÁC PHÉP TOÁN TRONG JAVA
 
 ### 1. Phép gán
 
@@ -325,7 +325,7 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 |:--------------------------------------------------------------------------------------:|
 | !  (Đúng thành sai, sai thành đúng)                                                    |
 | &&                                                                                     |
-| |\|                                                                                    |
+|                                                                                        |
 | ?:  (Toán tử điều kiện hay toán tử ba ngôi, đúng thì làm cái này, sai thì làm cái kia) |
 
 ### 5. Phép toán tăng dần ++, giảm dần --
@@ -351,7 +351,7 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 
 ---
 
-### Bài 13: NHẬP DỮ LIỆU TỪ BÀN PHÍM VỚI SCANNER
+## ✿ Bài 13: NHẬP DỮ LIỆU TỪ BÀN PHÍM VỚI SCANNER
 
 ### 1. Cách import thư viện
 
@@ -400,7 +400,7 @@ int x = new Scanner(System.in).nextInt();
 
 ---
 
-## Bài 14: CẤU TRÚC IF, IF ELSE, CẤU TRÚC 3 NGÔI
+## ✿ Bài 14: CẤU TRÚC IF, IF ELSE, CẤU TRÚC 3 NGÔI
 
 ### 1. Cấu trúc if
 
@@ -448,7 +448,7 @@ Nếu ``<Điều kiện>`` đúng thì ``<Biểu thức 1>`` thực hiện, ngư
 
 ---
 
-## Bài 15: CẤU TRÚC SWITCH
+## ✿ Bài 15: CẤU TRÚC SWITCH
 
 ### 1. Cấu trúc switch tổng quát
 
@@ -494,7 +494,7 @@ switch (<biến cần kiểm tra>)
 
 ---
 
-## Bài 16: VÒNG LẶP WHILE
+## ✿ Bài 16: VÒNG LẶP WHILE
 
 ### Vòng lặp while
 
@@ -516,7 +516,7 @@ while (expression)
 
 ---
 
-## Bài 17: VÒNG LẶP DO ... WHILE
+## ✿ Bài 17: VÒNG LẶP DO ... WHILE
 
 ### Vòng lặp do ... while
 
@@ -539,7 +539,7 @@ while (expression);
 
 ---
 
-## Bài 18: VÒNG LẶP FOR
+## ✿ Bài 18: VÒNG LẶP FOR
 
 ### Vòng lặp for
 
@@ -559,7 +559,7 @@ for (Exp1; Exp2; Exp3)
 
 ---
 
-## Bài 19: Ý NGHĨA VÀ CÁCH SỬ DỤNG BREAK VÀ CONTINUE TRONG CÁC VÒNG LẶP
+## ✿ Bài 19: Ý NGHĨA VÀ CÁCH SỬ DỤNG BREAK VÀ CONTINUE TRONG CÁC VÒNG LẶP
 
 ### 1. Cách dùng break
 
@@ -571,23 +571,23 @@ for (Exp1; Exp2; Exp3)
 
 ---
 
-## Bài 20: BÀI TẬP RÈN LUYỆN GIẢI PHƯƠNG TRÌNH BẬC 2
+## ✿ Bài 20: BÀI TẬP RÈN LUYỆN GIẢI PHƯƠNG TRÌNH BẬC 2
 
 ---
 
-## Bài 21: BÀI TẬP RÈN LUYỆN 2 GIẢI TOÁN HỌC
+## ✿ Bài 21: BÀI TẬP RÈN LUYỆN 2 GIẢI TOÁN HỌC
 
 ---
 
-## Bài 22: BÀI TẬP RÈN LUYỆN 3 TÍNH DÃY TOÁN HỌC
+## ✿ Bài 22: BÀI TẬP RÈN LUYỆN 3 TÍNH DÃY TOÁN HỌC
 
 ---
 
-## Bài 23: DANH SÁCH CÁC BÀI TẬP TỰ RÈN LUYỆN 1
+## ✿ Bài 23: DANH SÁCH CÁC BÀI TẬP TỰ RÈN LUYỆN 1
 
 ---
 
-## Bài 24: KHÁI NIỆM VỀ BIỆT LỆ
+## ✿ Bài 24: KHÁI NIỆM VỀ BIỆT LỆ
 
 ### 1. Tại sao phải xử lý biệt lệ
 
@@ -605,7 +605,7 @@ for (Exp1; Exp2; Exp3)
 
 ---
 
-## Bài 25: HỌC CÁCH SỬ DỤNG TRY ... CATCH
+## ✿ Bài 25: HỌC CÁCH SỬ DỤNG TRY ... CATCH
 
 ### **Cú pháp**
 
@@ -627,7 +627,7 @@ catch (Exception ex)
 
 ---
 
-## Bài 26: Ý NGHĨA CỦA TỪ KHOÁ FINALLY
+## ✿ Bài 26: Ý NGHĨA CỦA TỪ KHOÁ FINALLY
 
 ``finally`` nối đuôi phía sau ``try ... catch``
 
@@ -651,7 +651,7 @@ finally
 
 ---
 
-## Bài 27: Ý NGHĨA CỦA THROW
+## ✿ Bài 27: Ý NGHĨA CỦA THROW
 
 ```java
 ☆
@@ -674,7 +674,7 @@ public static void func() throws Exception // func() là hàm ví dụ
 
 ---
 
-## Bài 28: GỠ LỖI BẰNG CÔNG CỤ DEBUG
+## ✿ Bài 28: GỠ LỖI BẰNG CÔNG CỤ DEBUG
 
 ### 1. Cách đặt break point
 
@@ -700,7 +700,7 @@ public static void func() throws Exception // func() là hàm ví dụ
 
 ---
 
-## Bài 29: THƯ VIỆN XỬ LÝ DỮ LIỆU SỐ
+## ✿ Bài 29: THƯ VIỆN XỬ LÝ DỮ LIỆU SỐ
 
  ❖ Thư viện xử lý dữ liệu số : ``DecimalFormat``
 
@@ -728,7 +728,7 @@ System.out.println(dcf.format(x));
 
 ---
 
-## Bài 30: THƯ VIỆN XỬ LÝ NGÀY THÁNG
+## ✿ Bài 30: THƯ VIỆN XỬ LÝ NGÀY THÁNG
 
 ### 1. Calendar
 
@@ -813,7 +813,7 @@ catch (ParseException e)
 
 ---
 
-## Bài 31: THƯ VIỆN TOÁN HỌC
+## ✿ Bài 31: THƯ VIỆN TOÁN HỌC
 
 | Tên phương thức | Mô tả                                  |
 | --------------- | -------------------------------------- |
@@ -831,7 +831,7 @@ catch (ParseException e)
 
 ---
 
-## Bài 32: THƯ VIỆN XỬ LÝ SỐ NGẪU NHIÊN
+## ✿ Bài 32: THƯ VIỆN XỬ LÝ SỐ NGẪU NHIÊN
 
 **❖ Random : số nguyên**
 
@@ -858,7 +858,7 @@ double x = rd.nextDouble();
 
 ---
 
-## Bài 33: THƯ VIỆN XỬ LÝ CHUỖI
+## ✿ Bài 33: THƯ VIỆN XỬ LÝ CHUỖI
 
 ### 1. StringBuilder
 
@@ -947,7 +947,7 @@ vậy là xong
 
 ---
 
-## Bài 34: GIỚI THIỆU CHUỖI TRONG JAVA
+## ✿ Bài 34: GIỚI THIỆU CHUỖI TRONG JAVA
 
 ### 1. Cách khai báo và sử dụng chuỗi
 
@@ -1065,7 +1065,7 @@ giá trị s2 bằng s3
 
 ---
 
-## Bài 35: HÀM TÌM CHUỖI
+## ✿ Bài 35: HÀM TÌM CHUỖI
 
 ### 1. indexOf
 
@@ -1158,7 +1158,7 @@ Tìm thấy 3 lần từ [anh]
 
 ---
 
-## Bài 36: HÀM TRÍCH LỌC CHUỖI
+## ✿ Bài 36: HÀM TRÍCH LỌC CHUỖI
 
 ### **❖ subString**
 
@@ -1191,7 +1191,7 @@ Obama
 
 ---
 
-## Bài 37: HÀM ĐỔI CHUỖI
+## ✿ Bài 37: HÀM ĐỔI CHUỖI
 
 ### 1. replace
 
@@ -1225,7 +1225,7 @@ Putin Xin chào Michelle Obama
 
 ---
 
-## Bài 38: HÀM XOÁ KHOẢNG TRẮNG DƯ THỪA
+## ✿ Bài 38: HÀM XOÁ KHOẢNG TRẮNG DƯ THỪA
 
 ### ❖ trim : xoá khoảng trắng dư thừa bên trái và bên phải chuỗi
 
@@ -1301,7 +1301,7 @@ System.out.println(s);
 
 ---
 
-## Bài 39: HÀM SO SÁNH CHUỖI
+## ✿ Bài 39: HÀM SO SÁNH CHUỖI
 
 ### 1. compareTo
 
@@ -1332,7 +1332,7 @@ Tương tự như cái kia thôi:
 
 ---
 
-## Bài 40: CÁCH NỐI VÀ CHÈN CHUỖI
+## ✿ Bài 40: CÁCH NỐI VÀ CHÈN CHUỖI
 
 ### 1. Cách nỗi chuỗi bằng dấu +
 
@@ -1358,14 +1358,176 @@ System.out.println(s);
 
 ---
 
-## Bài 41: CÁCH TÁCH CHUỖI
+## ✿ Bài 41: CÁCH TÁCH CHUỖI
 
-### 1. Cách tách chuỗi với split
+### 1. Cách tách chuỗi với split (công dụng tương tự StringTokenizer)
 
 ❖ Các version JDk >= 1.4 có hỗ trợ split để tách chuỗi
 
 ```java
+☆
+String s = "Obama;Putin;Kim Jong Un";
+String []arr = s.split(";"); // ở đây có thể ghi theo kiểu arr[] (học kỹ hơn ở bài mảng)
+for (String name: arr)  // name là một tên biến thôi, đặt gì khác cũng được
+    System.out.println(name);
 
+→ 
+Obama
+Putin
+Kim Jong Un
 ```
 
-☆❖→
+### 2. Cách tách chuỗi với StringTokenizer
+
+❖ Các version JDK < 1.4 thì sử dụng StringTokenizer (đã học ở bài 33: Thư viện xử lý chuỗi)
+
+### 3. Bài chạy ví dụ
+
+```java
+☆
+String s = "36;Nguyễn Huỳnh Thanh Trúc;12B2"; 
+String []arr = s.split(";");
+if (arr.length == 3)
+{
+    System.out.println("Số thứ tự: "+arr[0]);
+    System.out.println("Tên: "+arr[1]);
+    System.out.println("Lớp: "+arr[2]);
+}
+System.out.println("-----------------------------------");
+for(int i = 0; i < arr.length; i++)
+    System.out.println(arr[i]);
+System.out.println("-----------------------------------");
+for (String x : arr)
+    System.out.println(x);
+
+→
+Số thứ tự: 36
+Tên: Nguyễn Huỳnh Thanh Trúc
+Lớp: 12B2
+-----------------------------------
+36
+Nguyễn Huỳnh Thanh Trúc
+12B2
+-----------------------------------
+36
+Nguyễn Huỳnh Thanh Trúc
+12B2
+```
+
+### ⚠ Trường hợp đặc biệt trong dùng split: chuỗi chứa ký tự đặc biệt
+
+* **Ví dụ:**
+
+```java
+☆ Khi sử dụng tách bởi dấu chấm: 
+		String s = "36.Nguyễn Huỳnh Thanh Trúc.12B2"; 
+		String []arr = s.split(".");
+		if (arr.length == 3)
+		{
+		    System.out.println("Số thứ tự: "+arr[0]);
+		    System.out.println("Tên: "+arr[1]);
+		    System.out.println("Lớp: "+arr[2]);
+		}
+		System.out.println("-----------------------------------");
+		for(int i = 0; i < arr.length; i++)
+		    System.out.println(arr[i]);
+		System.out.println("-----------------------------------");
+		for (String x : arr)
+		    System.out.println(x);
+
+→ Kết quả hiển thị: 
+-----------------------------------
+-----------------------------------
+```
+
+→ Vì dấu chấm như là một ký tự đặc biệt , ta khắc phục như sau: 
+
+```java
+☆
+String s = "36.Nguyễn Huỳnh Thanh Trúc.12B2"; 
+String []arr = s.split("\\.");
+if (arr.length == 3)
+{
+    System.out.println("Số thứ tự: "+arr[0]);
+    System.out.println("Tên: "+arr[1]);
+    System.out.println("Lớp: "+arr[2]);
+}
+System.out.println("-----------------------------------");
+for(int i = 0; i < arr.length; i++)
+    System.out.println(arr[i]);
+System.out.println("-----------------------------------");
+for (String x : arr)
+    System.out.println(x);
+
+→ Kết quả hiển thị đúng mong muốn: 
+Số thứ tự: 36
+Tên: Nguyễn Huỳnh Thanh Trúc
+Lớp: 12B2
+-----------------------------------
+36
+Nguyễn Huỳnh Thanh Trúc
+12B2
+-----------------------------------
+36
+Nguyễn Huỳnh Thanh Trúc
+12B2
+```
+
+→ Nếu như ta bị nối bởi một ký tự đặc biệt nào đó thì ta phải để ký tự `\\` đằng trước nó  để máy tính hiểu rằng đây là một ký tự tách chuỗi bình thường của chúng ta
+
+⚠ Nếu cẩn thận , trong mọi trường hợp bạn nên thêm `\\` đằng trước để bảo đảm không bị sai
+
+---
+
+## ✿ Bài 42: HÀM ĐỔI CHỮ HOA - THƯỜNG
+
+### 1. toUpper
+
+❖ Đổi chữ thường thành chữ hoa (chữ đã hoa rồi thì giữ nguyên thôi)
+
+❖ Sử dụng lệnh toUpperCase()
+
+```java
+☆ 
+String s = "obama".toUpperCase();
+System.out.println(s);
+
+→ OBAMA
+```
+
+### 2. toLower
+
+❖ Đổi chữ thường thành hoa
+
+❖ Sử dụng lệnh toLowerCase()
+
+```java
+String s = "PUTIN".toLowerCase();
+System.out.println(s);
+
+→ putin
+```
+
+### ⚠ Biến đổi chữ đầu tiên trong chuỗi thành chữ hoa sử dụng hàm replaceFirst() :
+
+```java
+String s = "thanh Trúc";
+s = s.replaceFirst((s.charAt(0)+""), (s.charAt(0)+"").toUpperCase());
+System.out.println(s);
+
+→ Thanh Trúc
+```
+
+* **<u>Lý giải đoạn code như sau :</u>** vì hàm replaceFirst() chỉ xử lý chuỗi cho nên ta nối thêm dấu nháy đôi vào để đưa ký tự mà ta lấy ra trở thành chuỗi 
+
+---
+
+## ✿ Bài 43: BÀI TẬP RÈN LUYỆN TÁCH LẤY TÊN BÀI HÁT
+
+---
+
+## ✿ Bài 44: BÀI TẬP RÈN LUYỆN KIỂM TRA CHUỖI PANLYNDRONME
+
+
+
+☆❖→✿❀⚠
