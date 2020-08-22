@@ -1528,6 +1528,74 @@ System.out.println(s);
 
 ## ✿ Bài 44: BÀI TẬP RÈN LUYỆN KIỂM TRA CHUỖI PANLYNDRONME
 
+❖ Chuỗi panlyndrome là chuỗi dù đọc ngược hay đọc xuôi cũng có kết quả y như nhau. Ví dụ: madam, radar,..
+
+---
+
+## ✿ Bài 45: BÀI TẬP RÈN LUYỆN TỐI ƯU CHUỖI
+
+---
+
+## ✿ Bài 46: CÁC BÀI TẬP RÈN LUYỆN TỰ GIẢI
+
+---
+
+## ✿ Bài 47: KHÁI NIỆM VỀ MẢNG
+
+### 1. Khái niệm về mảng
+
+❖ Là một loại biến đặc biệt, bao gồm một dãy các ô nhớ có nhiều ô nhớ con cho phép biểu diễn thông tin dạng danh sách trong thực tế
+
+❖ Các phần tử trong mảng có cùng kiểu dữ liệu với nhau
+
+❖ Một số mảng khác: Số thực , mảng chuỗi
+
+❖ Thông thường muốn tạo mảng ta phải biết được khả năng lưu trữ tối đa của nó
+
+### 2. Mục đích dùng mảng
+
+❖ Là cách tốt nhất để quản lý nhiều phần tử dữ liệu có cùng kiểu tại một thời điểm
+
+---
+
+## ✿ Bài 48: CÁCH KHAI BÁO VÀ CẤP PHÁT BỘ NHỚ CHO MẢNG
+
+### 1. Khai báo mảng như thế nào
+
+❖ Khai báo không khởi tạo kích thước và giá trị :
+
+```java
+☆ Kiểu dữ liệu []Tên mảng;
+☆ Kiểu đữ liệu Tên mảng[];
+Ví dụ:
+int []M;
+int M[];
+```
+
+### 2. Cấp phát bộ nhớ sử dụng mảng
+
+❖ Khai báo và khởi tạo kích thước nhưng không có giá trị ban đầu
+
+```java
+☆ Kiểu dữ liệu []Tên mảng = new Kiểu dữ liệu[Số phần tử];
+☆ Kiểu dữ liệu Tên mảng[] = new Kiểu dữ liệu[Số phần tử];
+Ví dụ:
+int []a = new int[5];
+int a[] = new int[5];
+```
+
+❖ Khai báo có khởi tạo kích thước và khởi tạo giá trị ban đầu:
+
+```java
+☆ Kiểu dữ liệu []Tên mảng = new Kiểu dữ liệu[]{giá trị 1, giá trị 2, giá trị 3, ...};
+☆ Kiểu dữ liệu []Tên mảng = {giá trị 1, giá trị 2, giá trị 3, ...};
+Ví dụ:
+int []a = new int[]{2,3,5,11};
+int []a = {2,3,4,11};
+```
+
+---
+
 
 
 ☆❖→✿❀⚠
