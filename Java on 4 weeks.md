@@ -1,6 +1,6 @@
-# ❀ Java cơ bản trong 4 tuần ❀
+# ![icons8java48px1png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-44-20-icons8_java_48px_1.png) Java cơ bản trong 4 tuần
 
-## ✿ Bài 1: GIỚI THIỆU NGÔN NGỮ LẬP TRÌNH `Java`
+## ![icons8_java_32px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-46-06-icons8_java_32px.png) Bài 1: GIỚI THIỆU NGÔN NGỮ LẬP TRÌNH `Java`
 
 ### 1. Lịch sử ra đời
 
@@ -1596,4 +1596,6 @@ int []a = {2,3,4,11};
 
 ---
 
-☆❖→✿❀⚠
+
+
+☆❖→✿❀⚠![icons8_java_32px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-46-06-icons8_java_32px.png)![icons8_java_48px_1.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-44-20-icons8_java_48px_1.png)
