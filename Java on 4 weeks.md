@@ -1420,20 +1420,20 @@ Nguyễn Huỳnh Thanh Trúc
 
 ```java
 ☆ Khi sử dụng tách bởi dấu chấm: 
-		String s = "36.Nguyễn Huỳnh Thanh Trúc.12B2"; 
-		String []arr = s.split(".");
-		if (arr.length == 3)
-		{
-		    System.out.println("Số thứ tự: "+arr[0]);
-		    System.out.println("Tên: "+arr[1]);
-		    System.out.println("Lớp: "+arr[2]);
-		}
-		System.out.println("-----------------------------------");
-		for(int i = 0; i < arr.length; i++)
-		    System.out.println(arr[i]);
-		System.out.println("-----------------------------------");
-		for (String x : arr)
-		    System.out.println(x);
+        String s = "36.Nguyễn Huỳnh Thanh Trúc.12B2"; 
+        String []arr = s.split(".");
+        if (arr.length == 3)
+        {
+            System.out.println("Số thứ tự: "+arr[0]);
+            System.out.println("Tên: "+arr[1]);
+            System.out.println("Lớp: "+arr[2]);
+        }
+        System.out.println("-----------------------------------");
+        for(int i = 0; i < arr.length; i++)
+            System.out.println(arr[i]);
+        System.out.println("-----------------------------------");
+        for (String x : arr)
+            System.out.println(x);
 
 → Kết quả hiển thị: 
 -----------------------------------
@@ -1595,7 +1595,5 @@ int []a = {2,3,4,11};
 ```
 
 ---
-
-
 
 ☆❖→✿❀⚠
