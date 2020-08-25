@@ -56,6 +56,20 @@
 
 ## ✿ Bài 2: CÁC CÔNG CỤ LẬP TRÌNH VỚI JAVA
 
+### 1. Notepad
+
+❖ Là công cụ đơn giản nhất để soạn thảo coding Java
+
+### 2. Eclipse
+
+❖ Là một trong những công cụ nổi tiếng nhất hiện nay để lập trình Java
+
+### 3. Netbean
+
+### 4. Android Studio
+
+❖ Là công cụ rất nổi tiếng để lập trình Adroid, viết mã nguồn bằng Java
+
 --- 
 
 ## ✿ Bài 3: CÀI ĐẶT JDK
@@ -71,6 +85,62 @@
 --- 
 
 ## ✿ Bài 6: CÁCH CÀI ĐẶT VÀ SỬ DỤNG CÔNG CỤ ECLIPSE
+
+![icons8_reminder_50px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/25-17-40-39-icons8_reminder_50px.png)**1 Workspace sẽ có nhiều Project, 1 Project sẽ có nhiều Package, 1 Package sẽ có nhiều lớp (class)**
+
+### 1. Cách tạo Workspace
+
+* Khi lần đầu tiên khởi động, Eclipse sẽ yêu cầu chúng ta chọn Workspace (là nơi lưu trữ các Project). Ta nên tạo ngay Workspace khác ổ C (tránh khi máy có vấn đề bị mất hết dữ liệu)
+
+* Nhấn vào `Use this as the default and do not ask again` (để lựa chọn vị trí vừa chọn là mặc định lần sau mở lên nó không hỏi nữa) rồi bấm `OK`
+
+⚠ Ngoài ra muốn đổi Workspace mới ta có thể: vào `File` → `Switch Workspace` → `Other` sau đó có thể chọn `Browse` để chọn đường dẫn khác. Sau khi chọn Workspace khác rồi bấm `OK`, đợi Eclipse restar lại thì ta sẽ có Workpace mới
+
+### 2. Cách tạo các Project
+
+* Project là một dự án cụ thể nào đó, được lưu vào Workspace (1 Workspace sẽ có nhiều Project)
+
+* Vào `File` → `New` → `Java Project` → nó sẽ hiển thị 1 cửa sổ cho ta tạo Project mới
+  
+  - Project name : đặt tên cho Project
+  
+  - Chọn Use a Project specific JRE
+  
+  - Sau đó bấm Finish để tạo Project
+
+### 3. Cách tạo package
+
+* package bản chất là cây thư mục để tổ chức sắp xếp phân loại các lớp, giúp cho việc bảo trì dự án được tốt hơn. **Package trong Java yêu cầu phải viết thường hết**. Nó được phân cấp theo dạng thư mục cha con (dựa vào dấu `.` lúc tạo package, trước dấu `.` là thư mục cha, sau dấu `.` là thư mục con)
+
+* Đặt package thế nào là do Lập trình viên quyết định
+
+* Tạo như sau : bấm chuột phải vào `src` → `New` → `Package` → ra một cửa sổ để tạo Package. Name: đặt tên cho package. Ví dụ đặt communityuni.com thì thư mục cha là communityuni, thư mục con là com
+
+* Ngoài việc tổ chức sắp xếp phân loại lớp, package còn có ý nghĩa :
+  
+  - Thường gắn liền với domain của cá nhân, tổ chức. Nhưng không có nghĩa nó phải tồn tại
+  
+  - Như tên tui là Thanh Trúc thì tui đặt là thanhtruc.edu.vn cũng được dù thanhtruc.edu.vn hoàn toàn không tồn tại
+
+### 4. Cách tạo class
+
+* Bấm chuột phải vào package vừa tạo → `New` → `Class` → hiển thị ra cửa sổ mới
+  
+  - Name : nhập vào tên lớp, ký tự đầu tiên của các từ phải viết hoa
+  
+  - Check vào public static void main để tự phát sinh ra hàm main (nếu quên thì khi vào code gõ `main` → `Ctrl+Space` để nó hiện ra)
+  
+  - Sau đó bấm `Finish` để kết thúc
+
+### 5. Cách biên dịch và thực thi dự án
+
+* Để biên dịch và chạy ta chọn `Run` → `Run` hoặc `Ctrl+F11` hoặc nhấn vào biểu tượng giống vầy <img title="" src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/25-18-03-16-icons8_play_64px.png" alt="icons8_play_64px.png" width="50"> trên toolbar
+
+### 6. Cấu hình lưu dấu tiếng Việt trong Eclipse
+
+* Nếu không cấu hình thì các chữ bằng tiếng Việt sẽ bị bể hết không đọc được
+
+* Vào `Project` → `Properties` → Hiện 1 cửa sổ mới lên → Ở phần **Resource** chỗ `Other` đổi thành `UTF - 8` → `OK` 
 
 ---
 
@@ -325,7 +395,7 @@ lúc này nếu ta khai báo cho PI = 3.15; thì sẽ bị báo lỗi, vì PI đ
 |:--------------------------------------------------------------------------------------:|
 | !  (Đúng thành sai, sai thành đúng)                                                    |
 | &&                                                                                     |
-|                                                                                        |
+| toán tử hoặc là 2 dấu gạch đứng                                                        |
 | ?:  (Toán tử điều kiện hay toán tử ba ngôi, đúng thì làm cái này, sai thì làm cái kia) |
 
 ### 5. Phép toán tăng dần ++, giảm dần --
@@ -576,6 +646,12 @@ for (Exp1; Exp2; Exp3)
 ---
 
 ## ✿ Bài 21: BÀI TẬP RÈN LUYỆN 2 GIẢI TOÁN HỌC
+
+⚠ Để nhập vào hay lấy 1 ký tự thôi thì dùng `charAt()`
+
+```java
+char ch = new Scanner(System.in).nextLine().charAt(0);
+```
 
 ---
 
@@ -1595,7 +1671,5 @@ int []a = {2,3,4,11};
 ```
 
 ---
-
-
 
 ☆❖→✿❀⚠![icons8_java_32px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-46-06-icons8_java_32px.png)![icons8_java_48px_1.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-44-20-icons8_java_48px_1.png)
