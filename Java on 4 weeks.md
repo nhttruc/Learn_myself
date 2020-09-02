@@ -1873,7 +1873,137 @@ Dùng `Arrays.sort(TênMảng);`
 
 ## ✿ Bài 55: LÝ DO SỬ DỤNG COLLECTION
 
-s
+### 1. Collection là gì ?
+
+* Collection bản chất là tập hợp các lớp dùng để lưu trữ danh sách và có khả năng <u>tự co giãn</u> khi danh sách thay đổi: Thêm, sửa, xoá, chèn...
+
+* Hai lớp Collection thường được sử dụng nhiều nhất là `ArrayList` và `HashMap`
+
+### 2. Cách khắc phục hạn chế của Mảng
+
+Để giải quyết hạn chế của mảng ta dùng collection
+
+---
+
+## ✿ Bài 56: CÁCH SỬ DỤNG ARRAYLIST
+
+### 1. Cách sử dụng ArrayList
+
+* **Giới thiệu về ArrayList:**
+  
+  * ArrayList sử dụng cấu trúc mảng để lưu trữ phần tử, tuy nhiên có vài đặc điểm khác mảng:
+    
+    * Không cần khai báo trước kiểu phần tử
+    
+    * Không cần xác định trước số lượng phần tử (kích thước mảng)
+    
+    * Nó có khả năng truy cập phần tử ngẫu nhiên (Do thừa kế từ interface RandomAccess)
+
+* **Phương thức khởi tạo:** 
+  
+  * ArrayList()
+  
+  * ArrayList(Collection c)
+  
+  * ArrayList(int initialCapactity)
+
+* **Các phương thức chính:** 
+  
+  * `add`(Object o) : đưa một dữ liệu vào danh sách
+  
+  * `remove`(Object o) : xoá đi
+  
+  * `set`() : thay đổi giá trị tại vị trí nào đó
+  
+  * `get`(int index) : lấy đối tượng, dữ liệu đó ra tại một vị trí nào đó
+  
+  * `size`() : trả lại kích thước của các phần tử tồn tại trong danh sách
+  
+  * `isEmpty`() : kiểm tra xem danh sách đó có rỗng hay không
+  
+  * `contains`(Object o) : kiểm tra xem danh sách đó chứa phần tử nào đó hay không
+  
+  * `clear`() : xoá hết phần tử trong danh sách
+
+* Ví dụ: 
+  
+  ```java
+  ArrayList <String> ds = new ArrayList <String>();
+  // Ở ví dụ này đã được chỉ định sẵn danh sách này lưu ở kiểu chuỗi
+  // Nếu như ta không chỉ định, hoặc truyển Object vào thì nó có thể lưu bất kỳ đối tượng nào
+  // * Lưu ý: nếu chỉ định kiểu dữ liệu ở đây như ví dụ thì nó không chập nhận kiểu dữ liệu cơ sở, mà muốn dùng phải thông qua WrapperClass
+  // Ví dụ: muốn kiểu int phải khai báo là <Integer>
+  ds.add("Nguyễn ");
+  ds.add("Huỳnh ");
+  ds.add("Thanh ");
+  ds.add("Trúc");
+  ```
+
+❖ Ngoài ra muốn duyệt danh sách thì có 1 trong 2 cách :
+
+* Cách 1: for dạng đối tượng: 
+  
+  ```java
+  for (String s : ds)
+  {
+      System.out.println(s);
+  }
+  ```
+
+* Cách 2: for theo vị trí:
+  
+  ```java
+  for (int i = 0; i < ds.size(); i++)
+  {
+      String s = ds.get(i);
+  }
+  ```
+
+### 2. Ví dụ
+
+```java
+ArrayList <String> ds = new ArrayList <String> ();
+ds.add("Trúc ");
+ds.add("Tuấn ");
+ds.add("Kiệt");
+for (int i = 0; i < ds.size(); i ++)
+    System.out.print(ds.get(i));
+
+System.out.println();
+ds.add(1, "Yêu ");
+System.out.println("Danh sách sau khi chèn: ");
+for (int i = 0; i < ds.size(); i ++)
+    System.out.print(ds.get(i));
+
+System.out.println();
+ds.remove(2);
+System.out.println("Danh sách sau khi xoá: ");
+for (int i = 0; i < ds.size(); i ++)
+    System.out.print(ds.get(i));
+
+System.out.println();
+ds.set(1, "Love ");
+System.out.println("Danh sách sau khi sửa: ");
+for (int i = 0; i < ds.size(); i ++)
+    System.out.print(ds.get(i));
+
+→
+Trúc Tuấn Kiệt
+Danh sách sau khi chèn: 
+Trúc Yêu Tuấn Kiệt
+Danh sách sau khi xoá: 
+Trúc Yêu Kiệt
+Danh sách sau khi sửa: 
+Trúc Love Kiệt
+```
+
+→ Cho thấy khả năng <u>tự co giãn</u>, không cần thực hiện nhiều bước rắc rối như mảng
+
+---
+
+## ✿ Bài 57: CÁCH SỬ DỤNG HASHMAP
+
+
 
 
 
