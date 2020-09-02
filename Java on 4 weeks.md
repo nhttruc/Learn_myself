@@ -1660,6 +1660,8 @@ int []a = new int[5];
 int a[] = new int[5];
 ```
 
+⚠ Khai báo `int []M;` rồi cho người dùng nhập vào số phần tử n của mảng rồi cấp phát `M = new int [n];` cũng được
+
 ❖ Khai báo có khởi tạo kích thước và khởi tạo giá trị ban đầu:
 
 ```java
@@ -1670,6 +1672,211 @@ int []a = new int[]{2,3,5,11};
 int []a = {2,3,4,11};
 ```
 
+⚠ Nhớ là khai báo kiểu String nếu muốn ghi một chuỗi như Trúc thì phải đặt trong dấu ngoặc kép:
+
+```java
+String []M = {"Trúc", "Kiệt", "Thạnh", "My", "Kiên"};
+```
+
 ---
+
+## ✿ Bài 49: TRUY XUẤT VÀ THAO TÁC TRÊN MẢNG
+
+### 1. Cách lấy đữ liệu từ mảng
+
+* Truy xuất giá trị một phần tử:
+  
+  `TênMảng [vị_trí_i]`
+  
+  * Vị trí của 1 phần tử bắt đầu từ 0
+  
+  * vị_trí_i có giá trị trong khoảng từ `0` đến `số phần tử -1`
+
+### 2. Cách thay đổi dữ liệu trên mảng
+
+* Ví dụ ban đầu mảng có `M[3] = 0`, muốn thay đổi giá trị 0 thành 304 thì đơn giản: `M[3] = 304` , vậy là xong
+
+* Tổng quát : `M[i] = value`
+
+### 3. Cách xuất dữ liệu mảng: for, for giá trị
+
+**❖ Có 2 cách phổ biến :**
+
+* Cách 1:  
+  
+  ```java
+  for (int i = 0; i < TênMảng.length; i++)
+  {
+      // Xử lý phần tử TênMảng[i]
+  }
+  ```
+
+* Cách 2:  Java có hỗ trợ một lệnh for mới, đó là duyệt từng giá trị trong một danh sách nào đó
+  
+  ```java
+  for (int i : TênMảng)
+  {
+      // Xử lý phần tử i
+  }
+  ```
+  
+  * Ví dụ: 
+    
+    ```java
+    int []M = {1, 2, 3, 4, 5};
+    for (int i : M)
+        System.out.println(i);
+    ```
+
+⚠ Kiểu dữ liệu và i ở Cách 1 và Cách 2 có ý nghĩa khác nhau: 
+
+* Ở cách 1: i mang kiểu đữ liệu int vì nó thể hiện cho <u>**vị trí**</u>
+
+* Ở cách 2: i mang kiểu dữ liệu int thể hiện cho từng **<u>giá trị</u>** trong mảng, có nghĩa kiểu dữ liệu của nó phụ thuộc vào kiểu dữ liệu của mảng, i đại điện cho từng **<u>giá trị</u>** trong mảng
+
+⚠Cách sử dụng cho phù hợp: 
+
+* Nếu chỉ đơn thuần xuất thông tin ra mà không quan tâm đến chỉ số cũng không muốn thay đổi thông tin thì nên dùng for ở `Cách 2`
+
+* Khi duyệt mảng vừa lấy giá trị, vừa lấy chỉ số và muốn thay đổi các thông tin nên dùng for ở `Cách 1`
+
+---
+
+## ✿ Bài 50: TÌM KIẾM TRÊN MẢNG
+
+Xem clip `Bài 50` để biết 2 cách tìm kiếm trên mảng (cũng dễ hiểu lắm):
+
+* Tìm xem phần tử muốn tìm có xuất hiện trong mảng hay không
+
+* Tìm xem phần tử cần tìm có trong mảng hay không, xuất hiện trong mảng bao nhiêu lần, ở đâu
+
+---
+
+## ✿ Bài 51: Sắp xếp mảng
+
+### 1. Sắp xếp mảng dùng các giải thuật sắp xếp
+
+Ở đây chỉ giới thiệu code cho biết và tham khảo, học kỹ hơn ở môn `Cấu trúc dữ liệu và giải thuật`
+
+* BubbleSort:
+  
+  ```java
+  void BubbleSort (int []M)
+  {
+      int i, j;
+      for (i = 0; i < M.length - 1; i++)
+      {
+          for (j = M.length - 1; j > i; j--)
+          {
+              if (M[j] < M[j - 1]) // nếu có nghịch thế
+              {
+                  int temp = M[j];
+                  M[j] = M[j - 1];
+                  M[j - 1] = temp;
+              }
+          }
+      }
+  }
+  ```
+
+* SelectionSort:
+  
+  ```java
+  void SelectionSort (int []M)
+  {
+      int min;
+      for (int i = 0; i < M.length - 1; i++)
+      {
+          min = i;
+          for (int j = i + 1; j < M.length; j++)
+          {
+              if (M[j] < M[min])
+                  min = j;
+          }
+          if (min != 1)
+          {
+              int temp = M[i];
+              M[i] = M[min];
+              M[min] = temp;
+          }
+      }
+  }
+  ```
+
+* QuickSort: (khó)
+  
+  ```java
+  void QuickSort (int []M, int left, int right)
+  {
+      if (left >= right) return;
+      int pivot = M[(left + right) / 2];
+      int i = left, j = right;
+      do
+      {
+          while (M[i] < pivot) i++;
+          while (M[j] > pivot) j--;
+          if (i <= j)
+          {
+              int temp = M[i];
+              M[i] = M[j];
+              M[j] = temp;
+              i++;
+              j--;
+          }
+      }
+      while (i < j);
+      QuickSort(M, left, j);
+      QuickSort(M, i, right);
+  }
+  
+  Khi gọi hàm truyền đối số: QuickSort(M, 0, M.length - 1)
+  ```
+
+### 2. Sắp xếp mảng dựa vào các thư viện có sẵn
+
+Dùng `Arrays.sort(TênMảng);`
+
+* Ví dụ: 
+  
+  ```java
+  int M[] = {2, 5, -2, 6, -3, 8, 0, 7, -9, 4};
+  Arrays.sort(M);
+  ```
+
+---
+
+## ✿ Bài 52: CÁC HẠN CHẾ CỦA MẢNG
+
+* Mảng có kích cỡ và số chiều cố định nên khó khăn trong việc mở rộng ứng dụng
+
+* Các phần tử được đặt và tham chiếu một cách liên tiếp nhau trong bộ nhớ nên khó khăn cho việc xoá một phần tử ra khỏi mảng
+
+* Giải thích khó khăn trong trường hợp xoá, chèn giữa, thêm vượt quá kích thước mảng 
+
+---
+
+## ✿ Bài 53: BÀI TẬP RÈN LUYỆN VỀ MẢNG
+
+⚠ Xuất hiện thêm câu lệnh: 
+
+`System.err.println("")` và `System.exit(0)`
+
+---
+
+## ✿ Bài 54: CÁC BÀI TẬP TỰ RÈN LUYỆN VỀ MẢNG
+
+![bài 54.1.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/02-13-46-06-b%C3%A0i%2054.1.PNG)
+
+![bài 54.2.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/02-13-46-37-b%C3%A0i%2054.2.PNG)
+
+---
+
+## ✿ Bài 55: LÝ DO SỬ DỤNG COLLECTION
+
+s
+
+
+
+
 
 ☆❖→✿❀⚠![icons8_java_32px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-46-06-icons8_java_32px.png)![icons8_java_48px_1.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-44-20-icons8_java_48px_1.png)
