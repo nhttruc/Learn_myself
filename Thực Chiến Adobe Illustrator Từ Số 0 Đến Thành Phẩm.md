@@ -42,12 +42,8 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 
 * Name : Đặt tên 
 
-*  Profile :  Lựa chọn một số định dạng cho công việc của ta
+* Profile :  Lựa chọn một số định dạng cho công việc của ta
 
 * Number of Artboards : Số lượng trang (Nếu chọn trên 2 trang thì có thể chọn thêm bố cục đặt của các trang ở 4 lựa chọn bên phải )
-
-
-
-
 
 ☆❖→⚠<img title="" src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-59-44-icons8_paint_palette_50px.png" alt="icons8_paint_palette_50px.png" width="50">![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)![icons8_knowledge_sharing_30px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-15-11-06-icons8_knowledge_sharing_30px.png)![icons8_adobe_illustrator_26px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-16-54-42-icons8_adobe_illustrator_26px.png)

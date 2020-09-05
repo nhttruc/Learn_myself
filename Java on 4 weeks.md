@@ -1905,7 +1905,7 @@ Dùng `Arrays.sort(TênMảng);`
   
   * ArrayList(Collection c)
   
-  * ArrayList(int initialCapactity)
+  * ArrayList(int initialCapacity)
 
 * **Các phương thức chính:** 
   
@@ -2002,6 +2002,212 @@ Trúc Love Kiệt
 ---
 
 ## ✿ Bài 57: CÁCH SỬ DỤNG HASHMAP
+
+### 1. HashMap
+
+* **Giới thiệu về HashMap:** 
+  
+  * Là kiểu tập hợp từ điển, HashMap cho phép truy xuất trực tiếp tới một đối tượng bằng khoá duy nhất của nó (hay còn gọi là khoá chính). Cả hai khoá và đối tượng có thể thuộc bất cứ kiểu nào
+
+* **Phương thức khởi tạo:**
+  
+  * HashMap()
+  
+  * HashMap(Collection c)
+  
+  * HashMap(int capacity)
+
+* **Cách phương thức chính:** 
+  
+  * `put`(Object key, Object value) : nhập mới một dữ liệu vào HashMap, có 2 đối số, đối số một là khoá chính, đối số 2 là giá trị đại diện cho khoá chính đó
+  
+  * `get`(Object key) : trả về đối tượng dựa vào khoá chính của nó
+  
+  * `remove`(Object key) : xoá đối tượng khỏi HashMap thông qua khoá chính
+  
+  * `containsKey`(Object Key) : kiểm tra khoá chính có tồn tại hay không, nếu có tồn tại mà vẫn put thì nó cập nhật, còn không tồn tại ta put thì nó thêm mới
+  
+  * `containsValue`(Object value) : kiểm tra xem đối tượng có tồn tại hay chưa
+  
+  * `size`() : trả về số lượng phần tử nằm trong danh sách
+  
+  * `isEmpty` : kiểm tra xem HashMap đó có rỗng hay không
+
+* **Ví dụ:** 
+  
+  ```java
+  HashMap <Integer, String> map = new HashMap <Integer, String> ();
+  // khoá chính mang kiểu Integer, giá trị mang kiểu String
+  map.put(1, "Nguyễn Huỳnh Thanh Trúc");
+  map.put(2, "Lê Tuấn Kiệt");
+  map.put(3, "Nguyễn Huỳnh Thạnh");
+  
+  String ten = map.get(1);
+  if (map.containsKey(4) == false)
+      map.put(4, "Hermione Granger");
+  
+  Collection <String> dsTen = map.values();
+  for (String x : dsTen)
+      System.out.println(x);
+  // cái này là làm theo giá trị
+  // muốn theo khoá chính thì làm như sau:
+  Collection <Integer> dsSTT = map.keySet();
+  for (int x : dsSTT)
+      System.out.println(x);
+  ```
+
+---
+
+## ✿ Bài 58: CÁC BÀI TẬP RÈN LUYỆN VỀ ARRAYLIST
+
+* Coi clip đi
+
+---
+
+## ✿ Bài 59: BÀI TẬP RÈN LUYỆN VỀ HASHMAP
+
+* Có thêm cái mới lạ ở chỗ vòng for nè, chỗ `Map.Entry....item....` gì đó (coi clip để hiểu rõ hơn) : 
+  
+  * Nhớ cú pháp của nó là : `Map.Entry <Kiểu dữ liệu đối số 1, Kiểu dữ liệu đối số 2> item : TênHashMap.entrySet()`
+
+![bài 59.1.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/02-17-29-52-b%C3%A0i%2059.1.PNG)
+
+Lúc xuất ra được vầy: 
+
+![bài 59.2.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/02-17-31-45-b%C3%A0i%2059.2.PNG)
+
+---
+
+## ✿ Bài 60: CÁC BÀI TẬP TỰ RÈN LUYỆN VỀ ARRAYLIST VỚI HASHMAP
+
+![bài 60.1.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/02-17-38-17-b%C3%A0i%2060.1.PNG)
+
+![bài 60.2.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/02-17-38-53-b%C3%A0i%2060.2.PNG)
+
+---
+
+## ✿ Bài 61: CÁCH KHÁI NIỆM VỀ HƯỚNG ĐỐI TƯỢNG
+
+### 1. Lập trình truyền thống
+
+### 2. Lập trình hướng đối tượng
+
+### 3. Khái niệm lớp và đối tượng
+
+* Khái niệm đối tượng (object) trong lập trình hướng đối tượng giống như một đối tượng cụ thể trong thế giới thực
+
+* Mỗi đối tượng có các thuộc tính và các hành vi riêng
+  
+  * Thuộc tính (attribute) mô tả đặc điểm của đối tượng
+  
+  * Hành vi là phương thức hoạt động của đối tượng, gọi tắt là phương thức (method)
+  
+  * Ví dụ: Phân số
+    
+    * Đặc điểm : tử số, mẫu số
+    
+    * Thao tác: cộng, trừ, nhân, chia, tối giản, nghịch đảo
+
+* Các đối tượng có các đặc điểm (thuộc tính và phương thức) giống nhau được gom nhóm thành một lớp để phân biệt với các đối tượng khác và dễ quản lý
+  
+  →Một lớp (class) là sự phân loại của các đối tượng hay kiểu (type) của đối tượng
+
+* Ví dụ: 
+  
+  * Các chiếc xe Toyota, BMW, Porsche thuộc lớp xe hơi
+  
+  * Các loại chó Husky, Pull, Corgi, .. thuộc lớp chó
+
+* Như vậy `lớp` là một khái niệm trừu tượng, dùng để chỉ một tập hợp các đối tượng có mặt trong hệ thống
+
+* `Lớp` có thuộc tính và phương thức: 
+  
+  * Thuộc tính của lớp tương ứng với thuộc tính của đối tượng
+  
+  * Phương thức của lớp tương ứng với các hành động của đối tượng
+
+* Một `Lớp` có thể có một trong các khả năng sau:
+  
+  * Hoặc chỉ có thuộc tính, không có phương thức
+  
+  * Hoặc chỉ có phương thức, không có thuộc tính
+  
+  * Hoặc có cả thuộc tính và phương thức, trường hợp này là phổ biến nhất
+
+* Lớp không có thuộc tính và phương thức nào là các lớp trừu tượng. Các lớp này không có đối tượng tương ứng
+
+### 4. Gói (package)
+
+* Một nhóm các lớp (classes) và giao diện (interfaces) được tổ chức thành một đơn vị quản lý theo hình thức không gian tên gị là package
+
+* Lợi ích của package là tổ chức sắp xếp lại hệ thống thông tin các lớp trng dự án một cách khoa học, giúp cho việc theo dõi bảo trid dự án được tốt nhất
+
+### 5. Tính trừu tượng
+
+### 6. Tính đóng gói
+
+### 7. Tính kế thừa
+
+* Cho phép xây dựng một lớp mới dựa trên các định nghĩa của một lớp đã có
+
+* Lớp đã có gọi là lớp cha, lớp mới phát sinh gọi là lớp con
+
+* Lớp con kế thừa tất cả các thành phần của lớp cha, có thể mở rộng vác thành phần kế thừa và bổ sung thêm các thành phần mới
+
+(Học kỹ hơn ở các bài sau)
+
+----
+
+## ✿ Bài 62: CÁC QUY TẮC KHI KHAI BÁO LỚP
+
+### 1. Quy tắc đặt tên lớp trong Java
+
+* Quy tắc đặt tên lớp : 
+  
+  * Tên lớp nên là một danh từ
+  
+  * Tên lớp có thể gồm nhiều từ, ký tự đầu tiên của mỗi từ nên viết hoa
+  
+  * Nên đặt đơn giản, dễ nhớ và có ý nghĩa
+  
+  * Không được trùng với từ khoá của Java (Ví dụ: Boolean, Integer, ...)
+  
+  * Không thể bắt đầu bằng số, nhưng có thể bắt đầu bằng dấu `$` và dấu `_`
+
+* Lớp (Class)
+  
+  * Cách khai báo lớp
+    
+    ```java
+    [Chỉ định từ truy xuất] class [tên lớp]
+    {
+        [thuộc tính];
+        [phương thức];
+    }
+    ```
+  
+  * Trong đó: 
+    
+    * Chỉ định từ truy xuất: 
+      
+      |                            | Lớp (Class) | Gói (Package) | Lớp con (Subclass) | Ngoài |
+      | -------------------------- |:-----------:|:-------------:|:------------------:|:-----:|
+      | **public**                 | Có          | Có            | Có                 | Có    |
+      | **protected**              | Có          | Có            | Có                 | Không |
+      | **Không có (no modifier)** | Có          | Có            | Không              | Không |
+      | **private**                | Có          | Không         | Không              | Không |
+    
+    * Thuộc tính: mô tả các thông tin liên quan về class
+    
+    * Phương thức : mô tả các phương thức xử lý có thể làm việc được với class
+
+### 2. Quy tắc đặt tên Constructor
+
+* Constructor là phương thức đặt biệt : có tên trùng y xì với tên lớp, không có kiểu trả về
+
+* Dùng để khởi tạo các giá trị cho các thuộc tính khi 1 đối tượng được cấp phát bộ nhớ
+
+* Có 2 loại Constructor : Mặc định và có đối số
 
 
 
