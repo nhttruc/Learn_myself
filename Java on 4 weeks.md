@@ -2208,10 +2208,119 @@ Lúc xuất ra được vầy:
 * Dùng để khởi tạo các giá trị cho các thuộc tính khi 1 đối tượng được cấp phát bộ nhớ
 
 * Có 2 loại Constructor : Mặc định và có đối số
+  
+  * Constructor mặc định: Dùng để tự động khởi tạo các giá trị cho các thuộc tính thường là các giá trị mặc định nào đó do chủ ý của lập tình viên
+    
+    ```java
+    public class SinhVien{
+        private String hoTen;
+        private double diem;
+        public SinhVien() // này nè
+        {
+            hoTen = "Harry Potter";
+            diem = 9.5;
+        }
+    }
+    ```
+  
+  * Constructor có đối số: Dùng để khởi tạo các giá trị cho các thuộc tính lúc tạo đối tượng, các giá trị này được truyển từ đối số tạo đối tượng
+    
+    ```java
+    public class SinhVien{
+        private String hoTen;
+        private double diem;
+        public SinhVien(String hoTen, double diem) // này nè
+        {
+            this.hoTen = hoTen;
+            this.diem = diem;
+        }
+    }
+    
+    * Từ khoá this có mục đích truy xuất tới các biến, thành viên
+    hay thuộc tính của đối tượng
+    * Lý giải rõ ràng nè: có this sẽ giúp phần hoTen ở vế trái trỏ đến 
+    hoTen ở phần private đầu , còn hoTen ở vế phải sẽ trỏ đến hoTen ở phần 
+    public SinhVien, vậy đó ^^
+    * Những thứ nào liên quan đến this. thì nó sẽ trỏ đến phần thuộc tính
+    (ở trên) còn không có this thì nó trỏ đến biến local (là những biến 
+    được khai báo trong đối số của hàm hay trong nội dung hàm (ở dưới đó)).
+    Khi nào bị trùng tên như trên có thể dùng this, còn không thì không cần
+    ```
 
+⚠ Khởi tạo đối tượng dùng new:
 
+```java
+SinhVien harry = new SinhVien(); // không đối số
+SinhVien ron = new SinhVien("Ron Weasly", 6.5);
+```
 
+### 3. Quy tắc đặt tên thuộc tính
 
+* Ký tự đầu tiên viết thường, ký tự đầu tiên của các từ tiếp theo viết hoa
+
+* Để `private` nếu không muốn cho kế thừa
+
+* Để `protected` nếu muốn cho kế thừa
+
+* Tuyệt đối không được để public (phá vỡ tính đóng gói, quy tắc của lập trình hướng đối tượng là phải đảm bảo tính đóng gói)
+
+* Ta cần xây dựng các `getter` / `setter` để truy xuất giá trị các thuộc tính, `setter` dùng thay đổi giá trị thuộc tính, `getter` lấy giá trị thuộc tính ra
+  
+  ```java
+  public class SinhVien{
+      private String hoTen;
+      private double diem;
+      public void set HoTen(String hoTen) 
+      {
+          this.hoTen = hoTen;
+      }
+      public String get HoTen()
+      {
+          return this.hoTen;
+      }
+  }
+  
+  * Chú ý;
+  - Hàm set chỉ có một đối số duy nhất, dùng truyển giá trị từ bên ngoài vào
+  để thay đổi giá trị thuộc tính, thông thường cùng tên với tên của thuộc tính
+  - get không có đối số nào cả, nó chỉ trả về một thuộc tính nào đó thôi, 
+  kiểu dữ liệu của thuộc tính là gì thì get có kiểu đó (như ví dụ hoTen 
+  mang kiểu String, get cũng gọi String)
+  ```
+
+* Các đối tượng ở ngoài không được phép truy suất trực tiếp vào các thuộc tính bên trong lớp, chỉ được phép tương tác thông qua `getter` / `setter`
+  
+  ```java
+  SinhVien sv = new SinhVien("Harry Potter", 8.5);
+  
+  Lấy tên : sv.getTen();
+  Đổi tên : sv.setTen("Hermione Granger");
+  Đổi điểm : sv.setDiem(10);
+  Lấy điểm : sv.getDiem();
+  ```
+
+### 4. Quy tắc đặt tên phương thức
+
+* Phương thức là các hành động (nghiệp vụ) trên từng đối tượng. Nó là tập các giải thuật để giải quyết 1 công việc cụ thể nào đó
+
+* Phương thức có kiểu trả về hoặc void, có các đối số truyển vào
+
+* Ký tự đầu tiên viết thường , ký tự đầu tiên của các từ tiếp theo viết hoa
+
+```java
+public class SinhVien{
+    private String hoTen;
+    private double diem;
+    public void xuatThongTin()
+    {
+        // làm cái gì đó
+    }
+}
+
+-> lúc gọi
+SinhVien sv = new SinhVien("Trúc", 9.0);
+sv.xuatThongTin();
+```
 
 
 
