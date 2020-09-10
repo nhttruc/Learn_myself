@@ -38,12 +38,32 @@ Trong giao diện khi ta vừa mở ứng dụng ![icons8_adobe_illustrator_26px
 
 Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việc mới
 
-(Hình minh hoạ sẽ thêm vào ở đây sau)
+![ai.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/10-17-24-21-ai.PNG)
 
-* Name : Đặt tên 
+* `Name` : Đặt tên 
 
-* Profile :  Lựa chọn một số định dạng cho công việc của ta
+* `Profile` :  Lựa chọn một số định dạng cho công việc của ta
 
-* Number of Artboards : Số lượng trang (Nếu chọn trên 2 trang thì có thể chọn thêm bố cục đặt của các trang ở 4 lựa chọn bên phải )
+* `Number of Artboards` : Số lượng trang (Nếu chọn trên 2 trang thì có thể chọn thêm bố cục đặt của các trang ở 4 lựa chọn bên phải )
+
+* `Spacing` : khi số trang là số nhiều (>1) thì đây là chỗ để lựa chọn khoảng cách giữa các trang
+
+* `Columns` : số cột
+
+* `Size `: lựa chọn kích thước, khổ giấy có sẵn
+
+* `Width `: chiều rộng
+  
+  `Height `: chiều cao ( đối với chiều rộng chiều cao thì nếu ở phần `Size` đã lựa chọn khổ giấy r thì nó sẽ tự thiết đặt, không thì tự chỉnh kích thước cũng được )
+
+* 
+
+
+
+
+
+
+
+
 
 ☆❖→⚠<img title="" src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-59-44-icons8_paint_palette_50px.png" alt="icons8_paint_palette_50px.png" width="50">![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)![icons8_knowledge_sharing_30px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-15-11-06-icons8_knowledge_sharing_30px.png)![icons8_adobe_illustrator_26px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-16-54-42-icons8_adobe_illustrator_26px.png)

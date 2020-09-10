@@ -2247,7 +2247,7 @@ Lúc xuất ra được vầy:
     Khi nào bị trùng tên như trên có thể dùng this, còn không thì không cần
     ```
 
-⚠ Khởi tạo đối tượng dùng new:
+⚠ Khởi tạo đối tượng dùng new: (ở main á)
 
 ```java
 SinhVien harry = new SinhVien(); // không đối số
@@ -2321,6 +2321,41 @@ public class SinhVien{
 SinhVien sv = new SinhVien("Trúc", 9.0);
 sv.xuatThongTin();
 ```
+
+⚠ Phương thức đặc biệt: `toString()` : ( cái này hơi khó hiểu, cần thì coi clip lại đi, khúc cuối á )
+
+* Trong Eclipse chỉ cần gõ `to` rồi `Ctrl+Space` 
+  
+  ```java
+  DẠng của nó như vầy: 
+  public String toString(){
+      return .......;
+  }
+  ```
+
+* Đây là phương thức đặc biệt thuộc lớp Object (lớp cha của mọi lớp, tất cả các lớp sinh ra đều kế thừa từ lớp Object nhưng vì mặc định nên không thấy)
+
+* Phương thức `toString` tự động được gọi khi đối tượng được xuất ra màn hình
+
+---
+
+## ✿ Bài 63: CÁC LOẠI PHƯƠNG THỨC
+
+### Có 2 loại phương thức chính:
+
+### Service Method & Support Method
+
+* Service Method là các phương thức `public` để cung cấp ra ngoài cho các đối tượng sử dụng
+
+* Support Method là các phương thức `private` dùng để hỗ trợ cho các Service Method (cũng có thể hỗ trợ cho các Support Method khác nhưng thường là hỗ trợ cho Service Method). Các đối tượng ở ngoài không thể truy xuất tới các Support Methods
+
+
+
+
+
+
+
+
 
 
 
