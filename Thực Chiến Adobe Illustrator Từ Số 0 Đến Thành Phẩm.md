@@ -191,6 +191,8 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 
 ![Gấu_bằng hình đơn giản.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/16-19-24-12-G%E1%BA%A5u_b%E1%BA%B1ng%20h%C3%ACnh%20%C4%91%C6%A1n%20gi%E1%BA%A3n.png)
 
+----
+
 
 
 
