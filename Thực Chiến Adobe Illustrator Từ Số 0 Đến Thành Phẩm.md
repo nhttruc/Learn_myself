@@ -161,7 +161,9 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 5: NHÓM HÌNH HỌC CƠ BẢN VÀ THAO TÁC VỚI CHÚNG (PHẦN 1)
 
-* Để vẽ ra những hình cơ bản ta chọn biểu tượng ![M.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/16-18-38-26-M.PNG) , đây là biểu tượng mặc định ban đầu của tính năng vẽ những hình cơ bản, nếu bạn chọn hình khác thì biểu tượng này sẽ bị thay đổi theo hình bạn vừa chọn , có các lựa chọn sau đây ![hình.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/16-18-40-20-h%C3%ACnh.PNG) mũi tên ở cạnh trái thì nhấn vào hiển thị các hình này ở dạng hình học cơ bản 
+* Để vẽ ra những hình cơ bản ta nhấn chuột phải vào biểu tượng ![M.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/16-18-38-26-M.PNG) , đây là biểu tượng mặc định ban đầu của tính năng vẽ những hình cơ bản, nếu bạn chọn hình khác thì biểu tượng này sẽ bị thay đổi theo hình bạn vừa chọn , có các lựa chọn sau đây ![công cụ m.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-15-53-22-c%C3%B4ng%20c%E1%BB%A5%20m.PNG) mũi tên ở cạnh trái thì nhấn vào hiển thị các hình này ở dạng hình học cơ bản 
+
+![icons8_warning_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-15-55-23-icons8_warning_48px.png) Khi ở ô công cụ `M` không hiển thị các lựa chọn như trên mà hiển thị các lựa chọn như vầy : ![hình.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-15-56-37-h%C3%ACnh.PNG) thì do thanh `Menu Bar` đang ở chế độ Basic, để xuất hiện ra nhiều cái như cái ở trên ta thực hiện như sau : bấm chọn vào biểu tượng này ![3 chấm.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-15-59-18-3%20ch%E1%BA%A5m.PNG) ở cuối thanh Menu Bar → xổ ra một thanh lựa chọn ta nhìn lên góc phải của thanh đó, bấm vào biểu tượng này ![biểu tượng gạch gạch.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-16-01-18-bi%E1%BB%83u%20t%C6%B0%E1%BB%A3ng%20g%E1%BA%A1ch%20g%E1%BA%A1ch.PNG) → ![basic.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-16-02-21-basic.PNG) từ Basic đổi qua thành `Advanced` là được
 
 * Như ảnh thì phím tắt của hình chữ nhật là `M` của hình eclip là `L` 
   
@@ -187,21 +189,73 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 
 * Hình ngôi sao cũng chọn nhiều góc nhọn được 
 
+* Ngoài ra còn có 1 công cụ vẽ điểm sáng là `Flare Tool` 
+
 #### Bài tập ở cuối bài của Trúc nè :
 
 ![Gấu_bằng hình đơn giản.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/16-19-24-12-G%E1%BA%A5u_b%E1%BA%B1ng%20h%C3%ACnh%20%C4%91%C6%A1n%20gi%E1%BA%A3n.png)
 
 ----
 
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 6 : NHÓM HÌNH HỌC CƠ BẢN VÀ THAO TÁC VỚI CHÚNG (PHẦN 2)
 
+* Vẽ đường thẳng nhấm vào biểu tượng ![đường thằng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-16-05-22-%C4%91%C6%B0%E1%BB%9Dng%20th%E1%BA%B1ng.PNG), phím tắt là `\`, cũng có thể vẽ được bằng cách chọn rồi kích đúp chuột vào màn hình, ở đây cũng chỉnh được trục của đường thẳng (độ nghiêng). Mà cũng tượng tự công cụ `M`, ![đường thằng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-16-05-22-%C4%91%C6%B0%E1%BB%9Dng%20th%E1%BA%B1ng.PNG) là biểu tượng mặc định ban đầu của công cụ này, nếu chọn công cụ khác thì hình ảnh của biểu tượng này cũng thay đổi theo
 
+* Chỉnh đường viền của các hình ở ô `Stroke`
 
+* Nhấn chuột phải vào ![đường thằng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-16-05-22-%C4%91%C6%B0%E1%BB%9Dng%20th%E1%BA%B1ng.PNG) để xổ ra nhiều lựa chọn khác ![vẽ từa lựa.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-16-09-45-v%E1%BA%BD%20t%E1%BB%ABa%20l%E1%BB%B1a.PNG)
+  
+  * `Arc Tool` vẽ ra các đường cong, cũng có cách vẽ tương tự mấy cái kia, chỉ là không có phím tắt
+  
+  * `Spiral Tool` , vẽ các đường xoắn ốc như nhang muỗi, có thể chỉnh độ dày của nó bằng công cụ `Width Tool` , biểu tượng : ![width tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-16-19-28-width%20tool.PNG), phím tắt `Shift+W` 
+  
+  * `Rectangular Grid Tool` vẽ ra cái bảng, mặc định là có mấy ô à, muốn thêm thì nhấn đúp vào nhập số hàng số cột được
+  
+  * `Polar Grid Tool` vẽ ra như cái mạng nhện, kích đúp vào chỉnh nhiều thứ hơn để mặc định
 
+* Để lật ngược hình theo nhiều chiều, chọn hình đó, rồi nhấn chuột phải → `Transform` → `Reflect` → hiện lên bảng cho chỉnh, tích `Preview` để xem thử rồi bấm `OK` 
 
+#### ![icons8_paint_palette_16px_1.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-17-46-12-icons8_paint_palette_16px_1.png) Bài tập của Trúc:
 
+![Chim cánh cụt _ đơn giản.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-17-46-51-Chim%20c%C3%A1nh%20c%E1%BB%A5t%20_%20%C4%91%C6%A1n%20gi%E1%BA%A3n.png)
 
+---
 
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)Bài 7 : CHỌN VÀ TƯƠNG TÁC ĐỐI TƯỢNG BẰNG CÁC CÔNG CỤ
 
+* Công cụ `Selection Tool` : ![seltction tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-17-54-03-seltction%20tool.PNG), phím tắt `V` , di chuyển được cả đối tượng
+
+* Công cụ `Direct Selection Tool` : ![direct selection tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-17-56-26-direct%20selection%20tool.PNG) , phím tắt `A` , di chuyển riêng biệt một hoặc nhiều điểm trên đối tượng
+
+* Công cụ `Group Selection Tool` : ![group.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-18-02-32-group.PNG) (cùng ô với `Selection Tool`), khi nhiều đối tượng được gom lại thành một nhóm (`Group`) , khi di chuyển và chọn một đối tượng thì nó cũng kéo theo nhiều đối tượng kia, nhưng công cụ này giúp ta có thể chọn riêng từng đối tượng trong 1 group 
+
+* Công cụ `Lasso Tool` : ![lasso tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-18-05-55-lasso%20tool.PNG), phím tắt `Q` , là công cụ chuyên chọn điểm, để khoanh chọn mấy cái điểm á, quên thì coi lại clip bài 7 vào lúc 5'26s
+  
+  #### ![icons8_paint_palette_50px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-59-44-icons8_paint_palette_50px.png) Đây là bài tập của Trúc, bài tập này có ứng dụng tính năng công cụ `Lasso Tool`, ngoài ra còn thêm sự trợ giúp của công cụ ![Scale tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-18-11-46-Scale%20tool.PNG):
+  
+  ![Bài tập bài 7.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-18-12-09-B%C3%A0i%20t%E1%BA%ADp%20b%C3%A0i%207.png)
+  
+  ----
+  
+  ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 8: CHỌN BẰNG THỰC ĐƠN SELECT
+
+* Công cụ `Magic Wand Tool` : ![magic.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-20-23-22-magic.PNG), phím tắt `Y` . Đây là công cụ giúp chọn lọc cùng lúc nhiều đối tượng có màu cùng với đối tượng mà bạn chọn. Ví dụ: đối tượng bạn chọn là màu trắng, thì tất cả những đối tượng màu trắng còn lại cũng sẻ đồng loạt được chọn
+
+* Công cụ `Eyedropper Tool` : ![et.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-20-27-33-et.PNG), phím tắt `I` . Đây là công cụ giúp copy màu bạn muốn từ một đối tượng A sang một đối tượng B khác. 
+
+* Có nhiều cách chọn theo nhiều đặc điểm khác nhau của hình, chọn ở `Select` → `Same` nó sẽ xổ ra nhiều lựa chọn. `Ctrl+6` để quay lại cách chọn ở trước
+
+* `Ctrl+T` để show bảng `Character` xuất hiện
+
+* Đối với chữ (Text), khi mà ta muốn cắt cái chữ đó nhỏ hơn , mảnh hơn như clip, ta thêm độ dày của viền (Stroke cho nó), đặt viền màu khác, sau đó chọn hết chữ → Kích chuột phải → `Create Outline` (`Shift+Ctrl+O`) (biến đổi Text ra dạng hình)→ `Object` → `Path` → `Outline Stroke` (biến đổi Stroke thành hình), sau đó muốn cắt Stroke để chữ mảnh lại tiếp tục như sau `Window` → `Pathfinder` → ![](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\2020-09-17-21-03-35-image.png) (Devide) → chuột phải → `Ungroup` , sau đó chọn xoá đi viền, sau đó nhấn `Ctrl+Y` để quan sát được những phần thừa từ chữ rồi xoá đi
+  
+  **![icons8_reminder_50px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-21-07-46-icons8_reminder_50px.png)Biến đổi từ chữ thành hình là chuột phải → `Create Outline`**
+  
+  
+  
+  
+  
+  
 
 
 
