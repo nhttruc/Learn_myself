@@ -248,18 +248,34 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 * `Ctrl+T` để show bảng `Character` xuất hiện
 
 * Đối với chữ (Text), khi mà ta muốn cắt cái chữ đó nhỏ hơn , mảnh hơn như clip, ta thêm độ dày của viền (Stroke cho nó), đặt viền màu khác, sau đó chọn hết chữ → Kích chuột phải → `Create Outline` (`Shift+Ctrl+O`) (biến đổi Text ra dạng hình)→ `Object` → `Path` → `Outline Stroke` (biến đổi Stroke thành hình), sau đó muốn cắt Stroke để chữ mảnh lại tiếp tục như sau `Window` → `Pathfinder` → ![](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\2020-09-17-21-03-35-image.png) (Devide) → chuột phải → `Ungroup` , sau đó chọn xoá đi viền, sau đó nhấn `Ctrl+Y` để quan sát được những phần thừa từ chữ rồi xoá đi
+
+* Một chữ có thể ungroup để chỉnh từng từ trong chữ
+
+* Chỉnh phần bóng của chữ bằng cách vào `Effect`  → `Stylize` → `Drop Shadow` (tích `Preview` để xem trước)
   
   **![icons8_reminder_50px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/17-21-07-46-icons8_reminder_50px.png)Biến đổi từ chữ thành hình là chuột phải → `Create Outline`**
-  
-  
-  
-  
-  
-  
 
+---
 
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 9: TƯƠNG TÁC NHÓM ĐỐI TƯỢNG
 
+* **Nhóm** các đối tượng lại với nhau : Trước tiên chọn các đối tượng muốn nhóm sau đó : 
+  
+  * <u>Cách 1</u> : Chuột phải → `Group` 
+  
+  * <u>Cách 2</u> : `Object` → `Group`
+  
+  * <u>Cách 3</u>  : `Ctrl+G` 
 
+* **Tách nhóm** : trước tiên cũng chọn đối tượng muốn tách :
+  
+  - <u>Cách 1</u> : Chuột phải → `Ungroup`
+  
+  - <u>Cách 2</u> : `Object` → `Ungroup`
+  
+  - <u>Cách 3</u> : `Shift+Ctrl+G`
+  
+  - <u>Cách 4</u> : Đây là cách cuối cùng, tuy nhiên nó cũng có khả năng tách tạm thời : Kích đúp vào đối tượng muốn chọn
 
 
 
