@@ -433,8 +433,40 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
   * `Align to Key Object` : căn chỉnh theo đối tượng mốc (Key)
   
   * `Align to Artboard` : căn chỉnh theo giao diện làm việc (phần màu trắng)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 12 : TẠO ĐƯỜNG CONG BÉZIER
+
+### 1. Công cụ `Pen Tool`
+
+* ![pen tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-20-20-pen%20tool.PNG), phím tắt `P` 
   
+  * Cái này vẽ theo cách chấm từng điểm
   
+  * Giữ `Shift` để thẳng hàng
+  
+  * Tạo độ cong bằng kéo giữ chuột
+
+### 2. Thêm điểm
+
+* ![adđ.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-28-20-ad%C4%91.PNG), phím tắt là dấu `+` hoặc `Object` → `Path` → `Add Anchor Points` hoặc bấm vào biểu tượng này ở chỗ `Pen Tool`
+
+### 3. Xoá điểm
+
+* ![delete.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-31-18-delete.PNG) , phím tắt là dấu `-` , cách làm là chọn điểm cần xoá sau đó bấm phím tắt `-` hoặc vào chỗ có công cụ `Pen Tool` chọn công cụ `Delete Anchor Point Tool` hoặc vào `Object` → `Path` → `Remove Achor Points` 
+
+### 4. Bài tập của Trúc
+
+![người áo tím-01.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-53-08-ng%C6%B0%E1%BB%9Di%20%C3%A1o%20t%C3%ADm-01.png)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 13 : CÁC DẠNG BIẾN ĐỔI ĐIỂM, ĐƯỜNG CONG VÀ ĐƯỜNG THẲNG
+
+* Sử dụng sự hỗ trợ của công cụ `Align` để chỉnh
+
+* Có thể chỉnh nhọn hoặc tròn bằng công cụ ở trên thanh trên đầu ![convert.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-20-04-21-convert.PNG), theo như quan sát thì công cụ này sẽ hiển thị khi sử dụng công cụ `A` rồi tô vô mấy cái hình để chỉnh hoặc có thể sử dụng công cụ `A` để kéo đỉnh nhọn thành tròn
 
 
 
