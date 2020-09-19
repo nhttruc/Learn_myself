@@ -277,6 +277,173 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
   
   - <u>Cách 4</u> : Đây là cách cuối cùng, tuy nhiên nó cũng có khả năng tách tạm thời : Kích đúp vào đối tượng muốn chọn
 
+* **Khoá** :  
+  
+  * <u>Cách 1 </u>: `Object` → `Lock` → `Selection`
+  
+  * <u>Cách 2</u> : `Ctrl+2` 
+
+* **Bỏ khoá** : 
+  
+  * <u>Cách 1</u> : `Object` → `Unlock All`
+  
+  * <u>Cách 2</u> : `Alt+Ctrl+2`
+
+* **Ẩn** : 
+  
+  * <u>Cách 1</u> : `Object` → `Hide` → `Selection`
+  
+  * <u>Cách 2</u> : `Ctrl+3`
+
+* Bỏ ẩn : 
+  
+  * <u>Cách 1</u> : `Object` → `Show All` 
+  
+  * <u>Cách 2</u> : `Alt+Ctrl+3`
+
+#### ![icons8_paint_palette_50px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-59-44-icons8_paint_palette_50px.png) Bài tập của Trúc :
+
+![Thiên thạch.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-15-17-18-Thi%C3%AAn%20th%E1%BA%A1ch.png)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 10 : THAY ĐỔI THỨ TỰ NẰM TRÊN, NẰM DƯỚI CỦA ĐỐI TƯỢNG
+
+### 1. Lên trên
+
+* Lên trên cùng của một hay nhiều đối tượng một lúc :
+  
+  * `Ctrl+Shift+]`
+  
+  * Chuột phải → `Arrange` → `Bring to Front`
+  
+  * `Object` → `Arrange` → `Bring to Front` 
+
+* Lên trên từng đối tượng :
+  
+  * `Ctrl+]`
+  
+  * Chuột phải → `Arrange` → `Bring Forward` 
+  
+  * `Object` → `Arrange` → `Bring Forward` 
+
+### 2. Xuống dưới
+
+* Xuống dưới một hay nhiều đối tượng một lúc :
+  
+  * `Ctrl+Shift+[`
+  
+  * Chuột phải → `Arrange` → `Send to Back` 
+  
+  * `Object` → `Arrange` → `Send to Back`
+
+* Xuống dưới từng đối tượng :
+  
+  * `Ctrl+[`
+  
+  * Chuột phải → `Arrange` → `Send Backward` 
+  
+  * `Object` → `Arrange` → `Send Back`
+
+### 3. Sắp xếp trên dưới bằng Layers
+
+* Mở `Layers` bằng 1 trong 2 cách sau :
+  
+  * `Window` → `Layers`
+  
+  * `F7` 
+
+* Sau đó thì trong ô `Layers` có các đối tượng, kéo các đối tượng lên xuống để chỉnh vị trí của nó, muốn lên trên thì kéo lên trên, muốn xuống thì kéo xuống dưới
+
+### 4. ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài tập của Trúc
+
+![Vệ tinh và thiên thạch.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-41-19-V%E1%BB%87%20tinh%20v%C3%A0%20thi%C3%AAn%20th%E1%BA%A1ch.png)
+
+**Qua bài tập học được thêm vài các sau đây :**
+
+* Công cụ `Gradient Tool` : ![gradient.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-15-47-54-gradient.PNG), phím tắt `G` , dùng để chỉnh độ ngả màu của hình 
+  
+  * Có nhiều cách chỉnh dạng trải màu của nó : 
+    
+    * Chỉnh màu theo dải : ![theo dải.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-15-51-22-theo%20d%E1%BA%A3i.PNG)
+    
+    * Chỉnh màu theo tâm : ![theo tâm.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-15-52-05-theo%20t%C3%A2m.PNG), có thể di chuyển tâm, kéo thanh để tăng độ to nhỏ của dải màu
+  
+  * Cách chỉnh loại màu, thêm màu : 
+    
+    * Chỉnh loại màu : Ví dụ trên hình này : ![vd2.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-15-56-43-vd2.PNG), kích đúp vào 2 điểm màu được khoanh đỏ đó, xuất hiện một bảng khác, ấn vào biểu tượng ![biểu tượng gạch gạch.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-15-58-04-bi%E1%BB%83u%20t%C6%B0%E1%BB%A3ng%20g%E1%BA%A1ch%20g%E1%BA%A1ch.PNG) để chuyển sang chế độ màu khác
+    
+    * Cũng trên hình đó, muốn thêm 1 màu nữa thì kích vào bất kỳ vị trí nào ở thanh dưới là được, màu có thể kéo tới kéo lui để chỉnh, hình thoi ở trên cũng vậy
+  
+  * Ở phần `Opacity` , chỉnh phần trăm càng nhỏ thì màu nó càng trong suốt
+
+* Công cụ `Shape Builder Tool` : ![shiftm.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-08-41-shiftm.PNG), phím tắt `Shift+M` , dùng để tô phần thừa ra của hình rồi xoá bỏ nó (cách dùng cần coi clip hoặc làm nhiều sẽ hiểu được)
+
+* Có thể chỉnh đầu của đường viền (Stroke), để mở thanh `Stroke` có thể : 
+  
+  * Vào `Window` → `Stroke` 
+  
+  * `Ctrl+F10`
+
+* Ở đây có giới thiệu cách tạo quầng sáng cực dễ cực đẹp : 
+  
+  * Trước tiên cố định 1 hình → `Effect` → `Blur` → `Gaussian Blur` (tích `Preview` để xem trước)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 11 : CĂN CHỈNH VỊ TRÍ ĐỐI TƯỢNG BẰNG ALIGN
+
+* Mở `Align` bằng `Window` → `Align` hoặc `Shift+F7` 
+  
+  ![algin.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-45-08-algin.PNG)
+  
+  Nhìn hình minh hoạ cũng hiểu :
+  
+  * ![tráiPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-46-47-tr%C3%A1i.PNG) : (`Horizontal Align Left`) căn chỉnh bên trái
+  - ![centerPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-48-38-center.PNG) : (`Horizontal Align Center`) căn chỉnh ở tâm dọc theo 1 hàng dọc
+  
+  - ![phảiPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-50-35-ph%E1%BA%A3i.PNG) : (`Horizontal Align Right`) căn chỉnh bên phải
+  
+  - ![topPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-51-36-top.PNG) : (`Vertical Align Top`) căn chỉnh lên trên
+  
+  - ![tâm ngangPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-53-30-t%C3%A2m%20ngang.PNG) : (`Vertical Align Center`) căn chỉnh tâm ngang theo cùng một hàng ngang
+  
+  - ![dướiPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-54-19-d%C6%B0%E1%BB%9Bi.PNG) : (`Vertical Align Bottom`) căn chỉnh bên dưới
+  
+  - ![đầuPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-55-44-%C4%91%E1%BA%A7u.PNG) : (`Vertical Distribute Top`) phân phối theo đầu đối tượng
+  
+  - ![tâm dọcPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-57-51-t%C3%A2m%20d%E1%BB%8Dc.PNG) : (`Vertical Distribute Center`) phân phối đều theo tâm dọc
+  
+  - ![chânPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-58-49-ch%C3%A2n.PNG) : (`Vertical Distribute Bottom`) căn chỉnh phân phối đều theo chân
+  
+  - ![đều cạnh tráiPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-16-59-57-%C4%91%E1%BB%81u%20c%E1%BA%A1nh%20tr%C3%A1i.PNG) : (`Horizontal Distribute Left`) phân phối đều theo cạnh trái
+  
+  - ![tâm ngang khác hàngPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-02-54-t%C3%A2m%20ngang%20kh%C3%A1c%20h%C3%A0ng.PNG) : (`Horizontal Distribute Center`) phân phối đều theo tâm ngang không thằng theo hàng ngang hay dọc, cách đều theo tâm thôi
+  
+  - ![theo cạnh phảiPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-04-57-theo%20c%E1%BA%A1nh%20ph%E1%BA%A3i.PNG) : (`Horizontal Distribute Right`) phân phối đều theo cạnh phải
+  
+  - ![theo chiều dọcPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-06-36-theo%20chi%E1%BB%81u%20d%E1%BB%8Dc.PNG) : (`Vertical Distribute Space`) căn chỉnh theo chiều dọc
+  
+  - ![theo chiều ngangPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-08-03-theo%20chi%E1%BB%81u%20ngang.PNG) : (`Horizontal Distribute Space`) căn chỉnh theo chiều ngang
+
+* ![xổ.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-17-12-51-x%E1%BB%95.PNG), với các chế độ : 
+  
+  * `Align to Selection` : căn chỉnh theo các đối tượng được chọn với nhau
+  
+  * `Align to Key Object` : căn chỉnh theo đối tượng mốc (Key)
+  
+  * `Align to Artboard` : căn chỉnh theo giao diện làm việc (phần màu trắng)
+  
+  
+
+
+
+
+
+
+
+
+
 
 
 
