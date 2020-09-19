@@ -468,6 +468,12 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 
 * Có thể chỉnh nhọn hoặc tròn bằng công cụ ở trên thanh trên đầu ![convert.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-20-04-21-convert.PNG), theo như quan sát thì công cụ này sẽ hiển thị khi sử dụng công cụ `A` rồi tô vô mấy cái hình để chỉnh hoặc có thể sử dụng công cụ `A` để kéo đỉnh nhọn thành tròn
 
+* Công cụ `Crystallize Tool` ![c tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-23-00-17-c%20tool.PNG) , nằm cùng ô với các công cụ này ![w t.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-23-01-31-w%20t.PNG), thật ra hình ảnh mặc định ban đầu của nó là cái đầu tiên á. Công cụ này dùng để nó tô và kéo tới đâu thì chỗ đó sẽ biến thành đường răng cưa
+  
+  
+  
+  
+
 
 
 
