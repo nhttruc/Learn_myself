@@ -155,6 +155,8 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 
 * Vào thư mục nhấn đúp vào file cần mở là được hoặc `File` → `Open` rồi chọn thư mục cần mở, hoặc mở nhanh các thư mục ở mở gần đây bằng cách chọn `Open Recent Files` 
 
+### 4. Đưa ảnh vào
+
 * Để đưa một hình ảnh vào thì `File` → `Place` hoặc nhấn tổ hợp phím `Shift+Ctrl+P` rồi kéo con trỏ chuột đúng cái kích thước mình muốn của cái ảnh
 
 ---
@@ -469,10 +471,164 @@ Sau đó nó sẽ hiện cửa sổ `New Document` cho ta tạo trang làm việ
 * Có thể chỉnh nhọn hoặc tròn bằng công cụ ở trên thanh trên đầu ![convert.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-20-04-21-convert.PNG), theo như quan sát thì công cụ này sẽ hiển thị khi sử dụng công cụ `A` rồi tô vô mấy cái hình để chỉnh hoặc có thể sử dụng công cụ `A` để kéo đỉnh nhọn thành tròn
 
 * Công cụ `Crystallize Tool` ![c tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-23-00-17-c%20tool.PNG) , nằm cùng ô với các công cụ này ![w t.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/19-23-01-31-w%20t.PNG), thật ra hình ảnh mặc định ban đầu của nó là cái đầu tiên á. Công cụ này dùng để nó tô và kéo tới đâu thì chỗ đó sẽ biến thành đường răng cưa
+
+* Cách chỉnh dải màu xếp lớp xếp lớp tương tự vầy nè : ![xếp lớp.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-14-24-11-x%E1%BA%BFp%20l%E1%BB%9Bp.PNG)
   
+  * Trước tiên ta vẽ ra 2 đối tượng để 2 đối tượng 1 đối tượng là đối tượng bắt đầu, còn lại là kết thúc
   
+  * Sau đó chọn cả 2 đối tượng
   
+  * Chọn công cụ `Blend Tool` , phím tắt là `W` ![blend tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-14-26-08-blend%20tool.PNG)
   
+  * Sau đó nhấn chọn vào 2 đối tượng bắt đầu và kết thúc để tạo ra dải màu
+  
+  * Nếu chưa hiện ra nhiều như mong muốn, ta phải ấn đúp vào biểu tượng công cụ `Blend Tool` ![](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\2020-09-20-14-27-47-image.png) để điều chỉnh
+  
+  * Ở ô `Spacing` chọn chế độ `Specifidied Steps`  và ở ô bên cạnh là ô để chọn số lượng hình ở giữa đối tượng bắt đầu và kết thúc (độ dày của hình)
+  
+  * Khi xong thì cả hình này sẽ hợp thành 1 khối , nhưng nếu nhấn đúp vào đối tượng bắt đầu hoặc đối tượng kết thúc (`Ungroup` tạm thời đó) và di chuyển nó qua chỗ khác thì hình sẽ thay đổi, các phần chính giữa nó sẽ di chuyển theo hình
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)Bài 14 : OBJECT PATH
+
+### 1. Join
+
+* Ví dụ với hình này : ![vd1.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-14-53-34-vd1.PNG)
+  
+  Công cụ `Join` sẽ nối nó lại với nhau được
+  
+  * Trước tiên sử dụng công cụ `Direct Selection Tool` ![direct selection tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-14-55-55-direct%20selection%20tool.PNG), phím tắt `A` khoanh 2 điểm cần nối lại 
+  
+  * Sau đó vào `Object` → `Path` → `Join` hoặc `Ctrl+J` nó sẽ thành được như này ![vd1.1.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-14-58-31-vd1.1.PNG)
+
+### 2. Average
+
+Sử dụng `Average` như sau : 
+
+* Với hình này : ![average vd.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-15-07-23-average%20vd.PNG)
+
+* Cũng sử dụng công cụ `A` ![direct selection tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-14-55-55-direct%20selection%20tool.PNG) chọn điểm 
+
+* Khoanh điểm muốn chỉnh sau đó `Object` → `Path` → `Average` hoặc `Alt+Ctrl+J` 
+
+* Nó sẽ hiển thị bảng lựa chọn sau : ![avergae.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-15-10-58-avergae.PNG)
+  
+  * `Horizontal` : nằm ngang
+  
+  * `Vertical` : nằm dọc
+  
+  * `Both` là nhập 2 điểm được chọn lại với nhau, nó chỉ nhập lại nhưng nó vẫn là 2 điểm, kéo riêng ra vẫn được
+
+* Chọn cái mình muốn rồi ấn `OK` 
+
+* Từ hình đầu tiên qua công cụ này có thể chỉnh được thành hình như sau ![average complete.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-15-15-18-average%20complete.PNG)
+
+⚠ `Average` phải chọn 2 điểm trở lên để chỉnh
+
+### 3. Outline Stroke
+
+* Là công cụ biến đổi đường viền (Stroke) thành hình
+
+* Cách thực hiện là chọn hình → `Object` → `Path` → `Outline Stroke` 
+
+### 4. Offset Path
+
+* Công dụng : Tạo ra 1 hình đồng tâm, đồng dạng với hình được chọn
+
+* Cách làm : Chọn hình → `Object` → `Path` → `Offset Path` → Hiện ra ô để chỉnh (bấm Preview để xem trước)
+
+### 5. Simplify
+
+* Tạo ra hình đơn giản nhiều điểm hoặc ít điểm
+
+* Chọn hình → `Object` → `Path` → `Simplify` → hiện khung cho chỉnh
+
+### 6. Devide Objects Below
+
+* Công dụng : dùng để làm thủng hình
+
+* Với hình này : 
+  
+  ![vd dive.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-15-35-19-vd%20dive.PNG)
+
+* Ta chọn hình tròn màu đỏ → `Object` → `Path` → `Devide Objects Below` → hình trở thành như vầy 
+  
+  ![devide vd.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-15-37-38-devide%20vd.PNG)
+  
+  Ta có thể chọn và xoá bỏ mấy chỗ còn lại lúc nãy hình tròn đè lên, vì nó bị cắt rồi : 
+  
+  ![devide complete.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-15-39-15-devide%20complete.PNG)
+
+### 7. Split Into Grid
+
+* Công cụ này tui thấy kiểu như chia nhỏ hình ra thành nhiều ô, đặc biệt 1 cái là hình bạn chọn dù là bất cứ hình gì chọn vào công cụ này nó đều biến thành hình vuong và nó chia nhỏ cột, muốn biết thì làm thử
+
+* Cách làm : Chọn hình → `Object` → `Path` → `Split Into Grid` → Hiện lên bảng để chọn chỉnh cột, hàng, khoảng cách giữa chúng (bấm Preview để xem trước)
+
+### 8. Clean up
+
+* Xoá tất cả những cái không màu , không hình để làm sạch bản vẽ
+
+* Cách làm : `Object` → `Path` → `Clean Up` → Hiện bảng lên cho bạn chọn → Xong bấm `OK` 
+
+### 9. Bài tập Trúc vẽ
+
+![Vẽ cái đầu.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-15-49-03-V%E1%BA%BD%20c%C3%A1i%20%C4%91%E1%BA%A7u.png)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 15 : ỨNG DỤNG IMAGE TRACE VÀ BRUSH LÀM POSTER
+
+### 1. Brushes
+
+* Cách tạo vòng tròn những thứ xoay xoay (không biết gọi là cái gì nữa mà ví dụ bằng hình cho dễ hiểu)
+  
+  * Trước tiên ta xem hình này : ![dải màu từa lưa.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-28-31-d%E1%BA%A3i%20m%C3%A0u%20t%E1%BB%ABa%20l%C6%B0a.PNG)
+    
+    * Để tạo ra hình này thì đơn giản, tạo ra từng đối tượng hình giọt nước kiểu đó r Copy - Paste ra
+    
+    * Trước tiên vẽ 1 hình tròn, kéo 1 cạnh của nó dài ra bằng công cụ `A` rồi bấm  ![nhọn.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-30-57-nh%E1%BB%8Dn.PNG) cho nó nhọn. Xong
+  
+  * Sau đó vào `Window` → `Brushes` hoặc đơn giản nhấn `F5` , nó sẽ hiện lên bảng này ![F5.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-37-56-F5.PNG), ta tô dải hình ban đầu vừa vẽ được sau đó kéo thả vào vùng được khoanh đỏ sau đây ![F51.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-39-22-F51.PNG)
+  
+  * Nó lại hiển thị bảng mới này ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-40-58-new%20brush.PNG), ta tích vào `Art Brush` rồi bấm `OK` 
+  
+  * Nó hiển thị lên bảng mới này ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-42-11-Art%20brush%20options.PNG)
+    
+    Ở chỗ `Direction` là chiều của cái dải này (Không hiểu hết nhưng cứ mò từ từ) 
+  
+  * Sau khi xong thì cái đó sẽ được xem là một cái mới trong bảng ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-43-38-brush.PNG)
+  
+  * Sau đó vẽ bất kỳ hình nào bạn muốn , ở đây tui vẽ hình Elip, sau đó tích chọn vào dải mào trong ô `Brushes` bạn vừa thêm vào, ta được thành quả như sau : 
+    
+    ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-45-29-brush%20complete.PNG)
+
+### 2. Đưa ảnh thành một đối tượng vecto
+
+* B1 : Chọn ảnh
+
+* B2 : `Object` → `Image Trace` → `Make` 
+
+* B3 : Coi trên thanh trên cùng á, nhấn `Expand` 
+
+* B4 : `Ungroup` hình để chọn từng đối tượng trong đó được (Thực hiện nếu hình đó có chỉ có 1 hay vài đối tượng bạn muốn chọn, còn lại thì không)
+
+⚠ Đặc biệt là chỉ ảnh đen trắng nó mới giữ nguyên hình thôi chứ ảnh màu nó cũng biến thành đen trắng hết à
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 16 : PATHFINDER VÀ BÀI TẬP BÌA CATALOG
+
+![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-00-43-12-pathfinder.PNG)
+
+* Mở `Pathfinder` bằng cách vào `Window` → `Pathfinder` hoặc `Shift+Ctrl+F9` 
+
+
+
+
+
+
 
 
 
