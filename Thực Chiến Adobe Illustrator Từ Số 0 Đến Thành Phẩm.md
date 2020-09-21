@@ -620,9 +620,85 @@ Sử dụng `Average` như sau :
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 16 : PATHFINDER VÀ BÀI TẬP BÌA CATALOG
 
+### 1. Giới thiệt `Pathfinder`
+
 ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-00-43-12-pathfinder.PNG)
 
 * Mở `Pathfinder` bằng cách vào `Window` → `Pathfinder` hoặc `Shift+Ctrl+F9` 
+
+* Trong đó : (nhìn hình cũng hiểu rồi)
+  
+  * ![liền hình.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\c22a60d6d1e6efb86f7dcb88150a662291a21c92.PNG) : làm các hình rời liền lại thành một khối
+  
+  * ![lấy hình dưới.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\6d91c3056194c712a1f7377d5dab65e3a0c81265.PNG) : lấy hình dưới, bỏ hình trên 
+  
+  * ![giao.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-17-17-31-giao.PNG) : lấy phần giao giữa các hình 
+  
+  * ![thủng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-17-18-59-th%E1%BB%A7ng.PNG) : làm thủng phần giao nhau giữa các hình
+  
+  * ![cắt rời.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-17-20-28-c%E1%BA%AFt%20r%E1%BB%9Di.PNG) : cắt rời hình ra thành nhiều mảnh từ các nét vẽ
+  
+  * Còn lại mấy cái kia cũng tương tự, thử là biết cách dùng
+
+### 2. Cách dùng `Clipping Mask`
+
+* Cái này cũng dùng để cắt hình thôi, làm mất cái hình bên ngoài : 
+
+Xem ví dụ cho dễ hiểu 
+
+* Đầu tiên ta có 1 cái khung trắng vầy : ![kung trắng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-18-40-46-kung%20tr%E1%BA%AFng.PNG)
+
+* Sau đó vẽ thêm một chi tiết vầy đè lên đi : ![khung trắng có hoạ tiết.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-18-41-43-khung%20tr%E1%BA%AFng%20c%C3%B3%20ho%E1%BA%A1%20ti%E1%BA%BFt.PNG)
+
+* Sau đó `Copy` - `Paste` ra một hình khung hình y vậy rồi sử dụng công cụ ![cắt rời.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-17-20-28-c%E1%BA%AFt%20r%E1%BB%9Di.PNG) để cắt hình ra được như vầy : ![hình cắt rồi này mới đúng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-18-51-46-h%C3%ACnh%20c%E1%BA%AFt%20r%E1%BB%93i%20n%C3%A0y%20m%E1%BB%9Bi%20%C4%91%C3%BAng.PNG)
+
+* Rồi đè hình mới cắt lên cái hình liền gốc 
+
+* Sau đó đưa một hình ảnh mình mong muốn vào đưa ẩn xuống cái hình khung mình đã làm như vầy : ![đè hình.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-18-47-35-%C4%91%C3%A8%20h%C3%ACnh.PNG)
+
+* Sau đó thực hiện cùng lúc chọn hình vừa đưa vào và hình vừa cắt rồi thực hiện chọn `Object` → `Clipping Mask` → `Make` hoặc `Ctrl+7` 
+
+* Kết quả được vầy nè, tá đa : ![kết quả.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-18-53-53-k%E1%BA%BFt%20qu%E1%BA%A3.PNG)
+
+### 3. Wrap
+
+* Công cụ `Wrap` mở ở trong `Effect` , nó có nhiều lựa chọn biến đổi hình như sau ![wrap.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-19-02-55-wrap.PNG), chọn một cái sẽ có một hình tương tự, nó sẽ hiện bảng tương ứng lên cho ta chỉnh (bấm Preview để xem trước)
+
+* Có một ví dụ biến đổi hình như sau :
+  
+  * Ban đầu có một hình chữ nhật vầy :![hcn.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-19-04-25-hcn.PNG)
+    
+    tui sẽ chỉnh hình này cho nó lượn sóng
+  
+  * Chọn hình đó sau đó vào `Effect` → `Wrap` → Ở ví dụ này tui chọn `Rise` 
+  
+  * Sau đó nó hiện lên bảng cho chỉnh, tuỳ mỗi người tự chỉnh, tui được vầy : ![wrap complete.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-19-09-39-wrap%20complete.PNG)
+  
+  * Muốn nó như thế nào nữa thì tuỳ chỉnh bằng công cụ `A` 
+
+#### ⚠ Ta thấy sau khi cái khung xanh của nó có thể bị chinh thế này gây khó khăn cho việc chỉnh sửa : ![chinh.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-19-12-37-chinh.PNG)
+
+#### Thực hiẹn chỉnh như sau :
+
+* Chọn đối tượng rồi vào `Object` → `Expand Appearance` 
+
+* Sau đó khung nó sẽ được chỉnh ngay ngắn đẹp đẽ vầy đây : ![xong.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-19-14-48-xong.PNG)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 17 : CLIPPINGMASK COMPOUND PATH
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
