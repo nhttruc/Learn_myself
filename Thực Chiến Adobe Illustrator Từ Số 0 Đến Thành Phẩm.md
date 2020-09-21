@@ -660,6 +660,8 @@ Xem ví dụ cho dễ hiểu
 
 * Kết quả được vầy nè, tá đa : ![kết quả.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-18-53-53-k%E1%BA%BFt%20qu%E1%BA%A3.PNG)
 
+#### ⚠Có thể trở lại như cũ ta thực hiện như sau : `Object` → `Clipping Mask` → `Release` hoặc `Alt+Ctrl+7`
+
 ### 3. Wrap
 
 * Công cụ `Wrap` mở ở trong `Effect` , nó có nhiều lựa chọn biến đổi hình như sau ![wrap.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-19-02-55-wrap.PNG), chọn một cái sẽ có một hình tương tự, nó sẽ hiện bảng tương ứng lên cho ta chỉnh (bấm Preview để xem trước)
@@ -686,7 +688,109 @@ Xem ví dụ cho dễ hiểu
 
 ---
 
-## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 17 : CLIPPINGMASK COMPOUND PATH
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 17 : CLIPPINGMASK - COMPOUND PATH
+
+### Thực hiện ví dụ luôn cho dễ hiểu, coi ví dụ sẽ hiểu cách làm:
+
+### Ở ví dụ này, tui sẽ làm cho chữ không chỉ mang màu sắc bình thường, mà mang 1 phần của hình ảnh :
+
+* Đầu tiên tui tạo được 1 chữ thế này : ![chữ.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\c1853f24f8fc9e579775d08285841dd2c59f6d4a.PNG)
+
+* Sau đó tui đưa vào được 1 cái hình thế này : ![meow.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\e42ca4ea8afcd39ff4bb887a3dd7af7a44b89ec5.PNG)
+  
+  Muốn chỉnh thì mình phải đưa Text về dạng hình, như hồi đó làm là sử dụng `Create Outlines` sau đó ta có thể sử dụng `Clipping Mask` để cắt hình ảnh lên cái ảnh ở trước như cách sử dụng ở bài trước. Tuy nhiên, cách này không thực hiện được với Text, với trường hợp này ta phải chỉnh như sau
+
+* `Object` → `Compound Path` → `Make` hoặc `Ctrl+8` 
+
+* Sau đó thực hiện sử dụng `Clipping Mask` như cũ, chọn hình và đối tượng muốn cắt thủng một phần của hình (Đối tượng kia phải đặt trên hình), vầy đây : ![đây.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-21-23-03-%C4%91%C3%A2y.PNG)
+  
+  Sau đó `Object` → `Clipping Mask` → `Make` hoặc `Ctrl+7` 
+
+* Ta được vầy đây : ![được vầy.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-21-25-43-%C4%91%C6%B0%E1%BB%A3c%20v%E1%BA%A7y.PNG)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 18 : SỬ DỤNG TRANSFORM PALETTE
+
+#### `Transform` là phần để biến đổi các đối tượng
+
+#### Mở bằng cách `Window` → `Transform` hoặc `Shift+F8`
+
+#### Nó vầy đây : (bảng ví dụ nếu không chọn đối tượng nào thì bảng này không có số liệu gì mà hiện)
+
+![transform.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-43-47-transform.PNG)
+
+* `X`, `Y` : vị trí của đối tượng (tính ở tâm), toạ độ là `0` hết thì là ở góc trái trên cùng của trang giấy
+
+* `W` : chiều rộng 
+
+* `H` : chiều dài
+
+* ![góc.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-48-12-g%C3%B3c.PNG) : chỉnh độ xoay của đối tượng
+
+* ![nghiêng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-49-35-nghi%C3%AAng.PNG) : chỉnh độ nghiêng của đối tượng
+  
+  * Có thể chỉnh độ nghiêng bằng công cụ khác nè : ![s t.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-51-31-s%20t.PNG)
+
+* ![h.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-52-57-h.PNG), ![w.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-53-12-w.PNG) : ứng với cái chiều dài chiều rộng
+
+* ![xoay.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-55-20-xoay.PNG) : xoay đối tượng theo tâm đối tượng
+  
+  ⚠![xoay.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-55-20-xoay.PNG) trong `Transform` **<u>khác</u>** với ![r.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-58-03-r.PNG) :
+  
+  * ![xoayPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-55-20-xoay.PNG) trong `Transform` : xoay theo tâm đối tượng
+  
+  * ![r.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-23-58-03-r.PNG) : Xoay cả đối tượng theo một điểm bạn chọn
+
+* ![cua.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-00-49-cua.PNG) : chỉnh độ cua của cái góc. Chọn mắc xích chính giữa để đồng loạt 4 cái
+
+#### Ngoài ra còn có phần `Transform` mở bằng cách kích chuột phải vào đối tượng : ![transform1.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-03-32-transform1.PNG)
+
+#### Chọn vào đối tượng nào cũng hiện bảng lên cho mình chỉnh
+
+1. `Move` : di chuyển toạ độ theo thông số nhất định
+
+2. `Rotate` : xoay toạ độ theo thông số được đặt
+
+3. `Reflect` : đảo hình, lật ngược hình
+
+### ![icons8_star_50px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-14-15-icons8_star_50px.png) Cách tạo một hình hoa văn bất kỳ từ `Reflect` :
+
+* Đầu tiên bạn sử dụng ![pain.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-15-49-pain.PNG) để vẽ lên bất cứ thứ gì bạn muốn : ![tên.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-27-53-t%C3%AAn.PNG)
+
+* Sau đó chọn đối tượng → chuột phải → `Transform` → `Reflect` → Chọn `Horizontal` hay `Vertical` đều được → `Copy` 
+  
+  Được vầy : ![tên 1.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-33-22-t%C3%AAn%201.PNG)
+
+* Sau đó chọn toàn bộ hình này thực hiện y nãy một lần nữa, chiều nào cũng được mà chọn sao cho nó đối xứng phù hợp ý bạn, được vầy : ![tên 2.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-35-48-t%C3%AAn%202.PNG)
+
+* Sau đó chọn toàn bộ hình này lần nữa, thực hiện `Ctrl+C` sau đó `Ctrl+F` để copy ra mộ thình y vậy trên chính vị trí hình cũ sau đó xoay, xoay chiều nào xoay sao bạn thích là được, rồi thực hiện copy vậy nhiều lần, rồi cứ xoay sao cho ra hình bạn thích nhất thôi, của tui đây : ![hình hoa văn.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-39-14-h%C3%ACnh%20hoa%20v%C4%83n.PNG) 
+  
+  Hình này đã được giảm độ dày của Stroke lại rồi cho nó dễ nhìn hơn
+  
+  Xoay nhiều hơn nữa nè : ![hoa văn.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-00-41-21-hoa%20v%C4%83n.PNG)
+  
+  Nói chung cũng tuỳ sáng tạo !
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 19 : HỘP THOẠI MOVE - XÁC ĐỊNH ĐỘ DI CHUYỂN TỰ DO - XÁC ĐỊNH THEO THÔNG SỐ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 
 
 
 
