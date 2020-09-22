@@ -616,6 +616,8 @@ Sử dụng `Average` như sau :
 
 ⚠ Đặc biệt là chỉ ảnh đen trắng nó mới giữ nguyên hình thôi chứ ảnh màu nó cũng biến thành đen trắng hết à
 
+### ⚠ ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-40-58-new%20brush.PNG) phần `Pattern Brush` làm cũng đẹp, có thể chọn vẽ ra ở bất kỳ hình nào, chữ cũng được (gần cuối clip bài 20 có giới thiệu)
+
 ---
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 16 : PATHFINDER VÀ BÀI TẬP BÌA CATALOG
@@ -776,33 +778,67 @@ Xem ví dụ cho dễ hiểu
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 19 : HỘP THOẠI MOVE - XÁC ĐỊNH ĐỘ DI CHUYỂN TỰ DO - XÁC ĐỊNH THEO THÔNG SỐ
 
+### Di chuyển đối tượng nằm sát nhau
 
+* Sử dụng `Transform` , ở thông số `X` lấy toạ độ `X` cộng thêm `W` cho nó sát nhau kế bên
 
+⚠ Nếu để in ra để cắt xén như clip thì thông số `X` cộng thêm 0.1 hoặc nhiêu tuỳ, khuyên là 0.1 (coi clip cho rõ đi)
 
+Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối tượng tính để nó san sát nhau
 
+---
 
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 20 : THỰC HIỆN QUAY VÀ CO DÃN ĐỐI TƯỢNG
 
+### 1. Cách phóng to thu nhỏ đối tượng bằng `Scale Tool`
 
+* **Tự do** :
+  
+  - Chọn đối tượng
+  
+  - Sau đó chọn công cụ ![scale tool sPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-15-57-07-scale%20tool%20s.PNG) rồi chọn vào các điểm góc để kéo to hoặc thu nhỏ (ấn `Shift` để nó đều tỉ lệ)
 
+* **Theo một tâm được chọn** : 
+  
+  * Cũng sử dụng công cụ ![scale tool sPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-15-57-07-scale%20tool%20s.PNG)
+  
+  * Chấm một tâm ở vị trí bạn muốn, rồi kéo để thay đổi kích thước
 
+#### Không sử dụng công cụ đó thủ công mà muốn xài thông số thì kích chuột phải → `Transform` → `Scale`
 
+### 2. Tạo khung bao quanh đối tượng bằng `Offset Path`
 
+* Vào `Object` → `Path` → `Offset Path` 
 
+### 3. `Reshape Tool`
 
+* ![reshape tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-16-07-06-reshape%20tool.PNG) : Dùng để chỉnh độ cong của một đường hở, nếu kín không chỉnh được
 
-### 
+---
 
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 21 : THỰC HÀNH BÀI TẬP
 
+### 1. Để Copy nhiều hình ngang ngang nhau thì từ 1 hình gốc, đầu tiên Copy một hình ngang qua bằng `Shift+Alt` sau đó `Ctrl+D` cho lẹ
 
+### 2. `Stroke` còn một cái đặc biệt như vầy : ![Stroke.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-19-23-06-Stroke.PNG)
 
+##### - Nếu ban đầu nó chưa hiện được hết thì vào ![gạch.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-19-25-32-g%E1%BA%A1ch.PNG) ở góc phải chọn `Show Options`
 
+##### - Ở phần `Arrowheads` có thể lựa chọn nhiều hình thù cho phần đầu và đuôi của stroke
 
+##### - Phần `Scale` có thể chỉnh kích thước của 2 cái hình ở phần đuôi của nó
 
+#### Bài tập Trúc đã vẽ xong :
 
+![City Future.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-22-17-59-City%20Future.png)
 
+#### Tui chế :
 
+![City Zen by Taurus.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/22-23-27-00-City%20Zen%20by%20Taurus.png)
 
+---
 
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 22 : THUỘC TÍNH MÀU SẮC
 
 
 
