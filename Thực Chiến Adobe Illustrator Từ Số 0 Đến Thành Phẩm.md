@@ -682,7 +682,7 @@ Xem ví dụ cho dễ hiểu
 
 #### ⚠ Ta thấy sau khi cái khung xanh của nó có thể bị chinh thế này gây khó khăn cho việc chỉnh sửa : ![chinh.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/21-19-12-37-chinh.PNG)
 
-#### Thực hiẹn chỉnh như sau :
+#### Thực hiện chỉnh như sau :
 
 * Chọn đối tượng rồi vào `Object` → `Expand Appearance` 
 
@@ -839,6 +839,62 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
 ---
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 22 : THUỘC TÍNH MÀU SẮC
+
+### 1. Có 2 loại màu hay dùng :
+
+![màu.jpg](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-16-38-30-m%C3%A0u.jpg)
+
+* `CMYK` : Phần giao nhau tạo ra màu đậm, tối
+  
+  * Hợp cho in ấn
+
+* `RGB` : phần giao nhau tạo ra màu sáng
+  
+  * Hợp với TV, hiển thị trên Website, trên điện thoại, trên các màn hình
+
+### 2. Khi pha thêm màu
+
+![1_4QXCeHJyDfDSp5PtcH6-8A.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-16-43-56-1_4QXCeHJyDfDSp5PtcH6-8A.png)
+
+##### ☆ Có 3 màu cơ bản : vàng, xanh dương (blue), và đỏ → màu cấp 1
+
+* Pha 2 màu cấp 1 với nhau sẽ ra được màu cấp 2, tìm hiểu kỹ hơn ở [CÁCH PHỐI MÀU ĐẸP](https://www.youtube.com/watch?v=SAGCigBKgps) 
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 23 : STROKE VÀ BÀI TẬP
+
+### 1. Công cụ `Stroke` : ![STroke ô.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-16-59-16-STroke%20%C3%B4.PNG)
+
+* `Cap` : hiển thị đầu nó như thế nào (chú ý 2 cái hình vuông khác nhau, cái ngoài cùng là phần ngang nó ngang với điểm luôn, cái ngoài cùng thì phần ngang nó trên điểm cuối tí, xem kỹ hình)
+
+* `Corner` : hình dạng của góc
+
+* `Align Stroke` : cho chỉnh cái đường để điều khiển của nó, trong, ngoài, giữa
+
+* `Dashed Line` : chỉnh cái đường gãy đứt (tăng số thì nó càng to càng thưa)
+
+* `Arrowheads` : bài trên có giới thiệu rồi, chỉnh hình đuôi Stroke
+
+### 2. `Width Tool` ![width tool.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-17-11-43-width%20tool.PNG), phím tắt `Shift+W`
+
+* Dùng để kéo chỉnh hình ảnh của các đường stroke 
+
+### 3. Bài tập nè
+
+![Đua thuyền-01.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-23-02-55-%C4%90ua%20thuy%E1%BB%81n-01.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
