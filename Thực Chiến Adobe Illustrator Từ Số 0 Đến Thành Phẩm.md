@@ -884,6 +884,26 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
 
 ![Đua thuyền-01.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-23-02-55-%C4%90ua%20thuy%E1%BB%81n-01.png)
 
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)Bài 24 : MESH TOOL VÀ BÀI TẬP
+
+* ### Công cụ `Mesh Tool` (![](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\2020-09-23-23-54-16-image.png), phím tắt `U` ), dùng để chỉnh một màu khác trong cùng một đối tượng :
+  
+  * Đầu tiên có hình vầy : ![hình e lip.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-23-56-43-h%C3%ACnh%20e%20lip.PNG)
+  
+  * Chọn hình đó → bấm vào ![](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\2020-09-23-23-54-16-image.png) hoặc gõ `U` → chọn một vị trí trong đối tượng mà bạn muốn có màu khác (kiểu nó tạo bóng bóng á)
+  
+  * Tui được vầy : ![ok.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/23-23-59-54-ok.PNG)
+  
+  * Muốn thêm nữa thì chọn điểm khác nữa nếu bạn thích : ![ghê chưa.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-00-01-45-gh%C3%AA%20ch%C6%B0a.PNG)
+    
+    Ghê chưa ! =)))
+  
+  ##### ⚠Nếu bạn muốn chỉnh phân bố của cái màu đó thì dùng công cụ `A` kéo nó được nha
+
+
+
 
 
 
