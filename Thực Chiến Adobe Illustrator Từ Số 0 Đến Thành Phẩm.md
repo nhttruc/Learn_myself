@@ -902,23 +902,9 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
   
   ##### ⚠Nếu bạn muốn chỉnh phân bố của cái màu đó thì dùng công cụ `A` kéo nó được nha
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 25 : NHÓM CÔNG CỤ TEXT
 
 
 
