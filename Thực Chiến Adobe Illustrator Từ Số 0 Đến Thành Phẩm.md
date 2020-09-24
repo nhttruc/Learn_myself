@@ -906,6 +906,126 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 25 : NHÓM CÔNG CỤ TEXT
 
+* ### Nhóm công cụ `Text` : ![text.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-12-11-10-text.PNG)
+  
+  * `Type Tool` : phím tắt `T`, để ghi chữ, chấm đại một chỗ ghi thì nó cho ghi tự do, ghi dài ra hoài nào tới mép trang thì nó mới xuống hàng, còn kéo khung text để ghi thì nó cố định trong khung đó, nào tới cạnh khung đó nó xuống hàng
+    
+    * Lúc mà ở trường hợp khung giới hạn thì nếu còn chữ chưa hiện hết thì có cái ô nó hiện dấu cộng ![vd 3.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-12-18-00-vd%203.PNG), lúc đó kéo ra thêm sẽ thấy thêm chữ, còn nêu ta nhấn đúp vào cái dấu cộng đó, nó sẽ hiện ra mọt khung kích thước bằng khung đó và chứa các chữ còn lại : ![vd4.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-12-20-28-vd4.PNG)
+  
+  * `Area Type Tool` : Viết text theo khung tạo (phải tạo khung trước) (trường hợp này cũng khá giống khi ghi kéo tạo khung ở trên thôi)
+  
+  * `Type on a Path Tool` : viết Text được trên bất kỳ đường path nào
+    
+    ⚠ Đối với những cái đường path kiểu hình kín á (như tròn, vuông) mặc định thì chữ nó ở bên rìa ngoài, có thể lật nó vào trong như sau `Type` → `Type on a Path` → `Type on a Path Options` → tích `Flip` để nó lật vào (có thể coi vọc các kiểu của nó tuỳ thích)
+  
+  * `Vertical Type Tool` : viết chữ theo chiều dọc (cũng có 2 cách viết tự do hoặc kéo khun)
+  
+  * `Vertical Area Type Tool` : cũng viết chữ theo chiều dọc nhưng phải tạo khung
+  
+  * `Vertical Type on a Path Tool` : viết chữ lên một đường path mà chữ này viết ngang qua đường path luôn như chữ bị đường path gạch ngang á
+  
+  * `Touch Type Tool` : phím tắt `Shift+T` , cái này dùng để chọn chỉnh từng chữ
+
+* ### Cách chèn hình lên text không che chữ :
+  
+  * Ví dụ có đoạn văn vầy : ![te.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-14-46-14-te.PNG)
+  
+  * Thêm hình vào nó che mất chữ rồi : ![trcc.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-14-47-22-trcc.PNG)
+  
+  * Để nó không che mất chữ làm như sau : 
+    
+    Chọn tất cả → `Object` → `Text Wrap` → `Make` 
+    
+    Nó được vầy : 
+    
+    ![textt.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-14-50-11-textt.PNG)
+  
+  * Muón quay về bình thường thì `Object` → `Text Wrap` → `Release`
+
+* ##### Có thể chỉnh độ sát của chữ vào hình :
+  
+  `Object` → `Text Wrap` → `Text Wrap Options` 
+  
+  ![t.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-14-58-20-t.PNG)
+  
+  `Offset` càng tăng chữ càng xa, chọn `Invert Wrap` để ở phần ngang với hình không có text luôn, là nguyên hàng đó chỉ có hình thôi
+
+#### ⚠ Tuy nhiên thấy chữ nó hơi lộn xộn muốn chỉnh nó đều làm như sau :
+
+#### Vào bảng `Paragraph` chỉnh : ![para.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-14-53-11-para.PNG), ở đây tui chọn căn đều được như sau : ![z.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-14-54-00-z.PNG)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)Bài 26 : CÁC BIẾN ĐỔI VÀ CĂN CHỈNH VĂN BẢN
+
+* ### Bảng `Character` : ![character.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-10-46-character.PNG) - bấm `Ctrl+T` là nó hiện ra
+  
+  * Ô đầu tiên cái có cái kính lúp là chỗ lựa chọn phông chữ
+  
+  * Ô thứ 2 là chỗ chỉnh chữ đậm, nghiêng
+  
+  * ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-13-26-a.PNG) : chọn size chữ
+  
+  * ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-16-33-va.PNG) : chỉnh khoảng cách giữa các chữ
+  
+  * ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-17-29-l.PNG) : chiều cao của chữ
+  
+  * ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-19-08-ro.PNG) : chiều rộng của chữ
+  
+  * ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-20-21-x.PNG) : chỉnh độ xoay 
+  
+  * ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-21-19-n.PNG) : nâng lên, hạ xuống chữ (dùng cho số mũ hay chỉ số) - dương là lên , âm là xuống
+  
+  * ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-23-36-caps.PNG) : viết hoa chữ - chữ nào thường biến thành hoa, muốn bình thường lại thì nhấn chọn lần nữa (**chữ lớn**)
+  
+  * ![cáp.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-25-23-c%C3%A1p.PNG) : viết hoa chữ, y như cái trên nhưng chữ nhỏ hơn
+  
+  * ![mũ.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-26-23-m%C5%A9.PNG) : viết dạng mũ, luỹ thừa
+  
+  * ![dưới.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-27-35-d%C6%B0%E1%BB%9Bi.PNG) : viết dạng chữ số dưới
+  
+  * ![agchj.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-28-26-agchj.PNG) : dấu gạch dưới
+  
+  * ![ngang c.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-15-29-06-ngang%20c.PNG) : gạch ngang chữ
+
+### ⚠ Cách thứ 2 chỉnh text ra dạng hình :
+
+* Chọn chữ 
+
+* `Object` → `Expand` (tích `Object` và `Fill`)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)Bài 27 : BÀI TẬP THIẾT KẾ HÌNH POSTER QUẢNG CÁO
+
+* ### `Color Guide` : ![color guide.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/24-21-59-35-color%20guide.PNG)
+  
+  * Vào `Window` → `Color Guide` hoặc `Shift+F3` 
+  
+  * Công cụ này để hiển thị ra cái lượt sắc độ của màu sắc
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 28 : CÁC LOẠI BRUSH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
