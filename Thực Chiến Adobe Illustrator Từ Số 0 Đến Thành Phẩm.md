@@ -1008,6 +1008,74 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 28 : CÁC LOẠI BRUSH
 
+* ### Các loại được giới thiệu :
+  
+  ![brush l.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-24-05-brush%20l.PNG)
+  
+  * `Paintbrush Tool` : phím tắt `B` - vẽ ra các đường kiểu stroke
+    
+    ![b.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-28-00-b.PNG)
+    
+    #### ⚠Để biến đường Stroke này thành hình thì vào `Object` → `Expand Appearance` hoặc `Object` → `Path` → `Outline Stroke`
+  
+  * `Blob Brush Tool` : phím tắt `Shift+B` - vẽ ra các đường nhưng mang kiểu hình. 
+    
+    ![bl.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-28-42-bl.PNG)
+    
+    Công cụ này thì khi vẽ thêm bất kỳ đường gì nối với nó thì nó sẽ tự nhập liền lại thành một hình : 
+    
+    ![hljljk.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-30-07-hljljk.PNG)
+    
+    ![hkjhjkhkl.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-30-33-hkjhjkhkl.PNG)
+  
+  #### ⚠ Khi kích đúp vào biểu tượng của công cụ này : ![jkljlPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-33-08-jkljl.PNG) hoặc ![jklPNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-33-10-jkl.PNG) thì nó hiện lên bảng cho ta chỉnh cái đầu bút lúc ta vẽ á
+  
+  * Công cụ ![eraser.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-39-46-eraser.PNG) : cái này kiểu bôi nét, nhưng nó cũng giúp vẽ ra các đường : ![hjkjkj.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-41-30-hjkjkj.PNG)
+    
+    Công cụ này khi kích đúp vào biểu tượng cũng chỉnh được đầu nét vẽ của nó
+  
+  * Ngoài ra còn có công cụ `Brushes` đã được giới thiệu
+
+### ![icons8_knowledge_sharing_30px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-15-11-06-icons8_knowledge_sharing_30px.png) Cách làm ra chữ 3d nè :
+
+1. Đầu tiên vẽ được 2 hình tròn này kèm theo dùng `Gradient` : ![vđ.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-17-16-45-v%C4%91.PNG)
+
+2. Sau đó sử dụng `Blend Tool` làm nên một dãy chuyển màu (tui làm cỡ 600)
+   
+   ![faf.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-17-19-12-faf.PNG)
+   
+   Sau đó tui có chỉnh màu cho nó đều đều tí : 
+   
+   ![âf.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-17-24-14-%C3%A2f.PNG)
+
+3. Sau đó tui viết được thêm một chữ thế này : 
+   
+   ![sdgfa.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-17-26-44-sdgfa.PNG)
+
+4. Sau đó chọn hết hai cái rồi vào `Object` → `Blend` → `Replace Spine` 
+   
+   Sau đó tui nhận ra nó làm không được, và ngộ ra rằng tại viết nhiều nét ngưng quá nên nó không làm , phải viết chữ liền mạch trong 1 lần mới được nha !!!
+   
+   Tui đổi chữ lại đây : 
+   
+   ![jlj.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-17-35-12-jlj.PNG)
+   
+   Rồi lại thực hiện `Object` → `Blend` → `Replace Spine` → được rồi nè : 
+   
+   ![jlgsjlg.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-17-36-42-jlgsjlg.PNG)
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 29 : NHÓM CÔNG CỤ VẼ
+
+* ### Cách tạo bóng :
+  
+  Chọn đối tượng → `Effect` → `Stylize` → `Drop Shadow` → hiện bảng lên tự chỉnh theo mình muốn
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 30 : NHÓM CÔNG CỤ XOÁ, CẮT ĐỐI TƯỢNG E VÀ BÀI TẬP
+
 
 
 
