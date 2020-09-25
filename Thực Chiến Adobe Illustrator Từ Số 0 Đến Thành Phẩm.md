@@ -1076,6 +1076,32 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 30 : NHÓM CÔNG CỤ XOÁ, CẮT ĐỐI TƯỢNG E VÀ BÀI TẬP
 
+* ### Cách tạo hình kiểu chiều sâu :
+  
+  1. Đầu tiên vẽ ra một cái hình, xong dùng ![eraser.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-15-39-46-eraser.PNG) vẽ hình lủng lỗ lên đó : ![lủng.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-22-29-21-l%E1%BB%A7ng.PNG)
+  
+  2. Copy ra một hình y chang đổi màu đậm hơn, cái lỗ lủng thì thu nhỏ lại : 
+     
+     ![ljl.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-22-33-20-ljl.PNG)
+  
+  3. Dùng `Blend Tool` tạo ra nhiều hình nữa tạo độ sâu : 
+     
+     ![sâu.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-22-34-50-s%C3%A2u.PNG)
+  
+  4. Sau đó vào `Object` → `Expand` biến nó thành hình rồi `Ungroup` ra 
+  
+  5. Sau đó tui dùng `Aglin` để chỉnh nó tự ngây lại với nhau (ở đây lỡ làm nó sắp sai vị trí trên dưới, phải sắp lại)
+     
+     Thành quả nè : 
+     
+     ![rồi.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/25-22-40-43-r%E1%BB%93i.PNG)
+  
+  ---
+  
+  ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 31 : CÁC LỆNH FILTER
+
+
+
 
 
 
