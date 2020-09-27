@@ -1100,35 +1100,63 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
   
   ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 31 : CÁC LỆNH FILTER
 
+### 1. `Crop Marks`
 
+* Công cụ này kiểu tạo ghim cho hình để khi in
 
+* Thực hiện như sau : `Effect` → `Crop Marks` → được như sau : 
+  
+  ![mr.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/27-15-52-55-mr.PNG)
+  
+  Các cạnh ở 4 góc đó.
 
+### 2. `Object Mosaic`
 
+* Chuyển hình ảnh ra dạng các ô vuông cắt rời ra
 
+* Thực hiện như sau :
+  
+  1. Trước tiên đưa một hình vào ![icons8_adobe_illustrator_26px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-16-54-42-icons8_adobe_illustrator_26px.png)
+     
+     #### ⚠ Có một lưu ý ở đây là nếu bạn đưa hình vào từ file trong máy (bằng `File` → `Place`) thì không sử dụng công cụ này được, nếu copy hình ở ngoài đưa vào bằng `Ctrl+V` thì sử dụng được
+  
+  2.  Sau đó chọn hình → `Object` → `Create Object Mosaic` → hiện bảng lên cho bạn chỉnh
+     
+     ![mosiac.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/27-18-09-34-mosiac.PNG)
+     
+     * Tích vào `Delete Raster` là để chia hình ra thành nhiều mảnh
+     
+     * `Tile Spacing` là khoảng cách của các ô cách tạo ra
+     
+     * `Number of Tiles` là để chỉnh số ô của nó xuất hiện ở chiều dọc và ngang 
+     
+     ![new.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/27-20-38-46-new.PNG)
+     
+     Có thể `Ungroup` hình này ra được
 
+* #### Ngoài ra còn có thể chỉnh độ xoay của từng ô nhỏ này như sau:
+  
+  * Đầu tiên phải `Ungroup` hình
+  
+  * Sau đó chọn hết tất cả → `Object` → `Transform` → `Transform Each` 
 
+* #### Còn nữa, khi đã `Ungroup` , bạn có thể thay đổi từng nhóm của hình, từng ô, từng nhóm ô gì đó tuỳ bạn cho nó lạ:
+  
+  * Trước tiên tô những ô bạn muốn
+  
+  * Vào `Effect` →  `Wrap` → chọn kiểu hình bạn mong muốn rồi chỉnh cho nó lạ lạ tuỳ thích
 
+* #### Nói chung khi đã `Ungroup` ra, bạn có thể tuỳ chỉnh, sáng tạo từng phần của hình nếu muốn
 
+### 3. Giới thiệu `Stylize`
 
+![ts.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/27-22-41-43-ts.PNG)
 
+* `Drop Shadow` : tạo đổ bóng
 
+* `Feather` : làm mờ, nhờ ngoài cạnh khung hình (càng tăng nó càng mờ)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 
 
 
 
