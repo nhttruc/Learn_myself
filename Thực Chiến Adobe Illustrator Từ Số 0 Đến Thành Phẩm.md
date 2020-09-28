@@ -608,13 +608,19 @@ Sử dụng `Average` như sau :
 
 * B1 : Chọn ảnh
 
-* B2 : `Object` → `Image Trace` → `Make` 
+* B2 : `Object` → `Image Trace` → `Make`  hoặc trên thanh trên cùng có ![i.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-14-19-17-i.PNG) bấm vào cũng được
 
 * B3 : Coi trên thanh trên cùng á, nhấn `Expand` 
 
 * B4 : `Ungroup` hình để chọn từng đối tượng trong đó được (Thực hiện nếu hình đó có chỉ có 1 hay vài đối tượng bạn muốn chọn, còn lại thì không)
 
-⚠ Đặc biệt là chỉ ảnh đen trắng nó mới giữ nguyên hình thôi chứ ảnh màu nó cũng biến thành đen trắng hết à
+⚠ Để bình thường thì chỉ ảnh đen trắng nó mới giữ nguyên hình thôi chứ ảnh màu nó cũng biến thành đen trắng hết à
+
+#### ⚠ Có thể giữ màu của hình như sau (một vài hình không được nét như ảnh gốc nha)
+
+* Lúc thực hiện bằng việc bấm ![i.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-14-19-17-i.PNG) , ta bấm vào mũi tên cho nó xổ ra rồi chọn `16 Colors` 
+
+* Còn nếu thực hiện bằng việc vào `Object` → `Image Trace` → `Make` và bức hình đã bị chuyển đen trắng rồi thì có thể chỉnh bằng cách bấm vào ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-14-21-47-s.PNG) rồi chọn `16 Colors` 
 
 ### ⚠ ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/20-22-40-58-new%20brush.PNG) phần `Pattern Brush` làm cũng đẹp, có thể chọn vẽ ra ở bất kỳ hình nào, chữ cũng được (gần cuối clip bài 20 có giới thiệu)
 
@@ -1120,7 +1126,7 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
      
      #### ⚠ Có một lưu ý ở đây là nếu bạn đưa hình vào từ file trong máy (bằng `File` → `Place`) thì không sử dụng công cụ này được, nếu copy hình ở ngoài đưa vào bằng `Ctrl+V` thì sử dụng được
   
-  2.  Sau đó chọn hình → `Object` → `Create Object Mosaic` → hiện bảng lên cho bạn chỉnh
+  2. Sau đó chọn hình → `Object` → `Create Object Mosaic` → hiện bảng lên cho bạn chỉnh
      
      ![mosiac.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/27-18-09-34-mosiac.PNG)
      
@@ -1156,7 +1162,121 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
 
 * `Feather` : làm mờ, nhờ ngoài cạnh khung hình (càng tăng nó càng mờ)
 
-* 
+### 4. `Create Gradient Mesh`
+
+* Công cụ này kiểu cũng chia hình nhỏ nhỏ ra dạng lưới
+  
+  Cái này thì có thể đưa ảnh vào từ máy tính cũng được, không như `Create Object Mosaic` 
+
+* Thực hiện như sau : 
+  
+  * Trước tiên ta đưa hình vào, rồi chọn hình đó
+  
+  * Sau đó vào `Object` → `Create Gradient Mesh` → nó sẽ hiển thị bảng cho ta thiết lập số hàng, cột
+    
+    ![mesh.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-10-36-55-mesh.PNG)
+    
+    Chọn vào hình thì ta thấy được dạng lưới của nó vầy :
+    
+    ![lưới.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-10-39-07-l%C6%B0%E1%BB%9Bi.PNG)
+  
+  #### ⚠ Với chế độ này, ta có thể chọn chỉnh sửa theo ô hoặc theo các điểm tròn của lưới
+
+### 5. `Distort`
+
+* Vào `Effect` → `Distort` → `Diffuse Glow` → nó sẽ hiện ra bảng riêng cho ta chỉnh hình
+
+* Cái này kiểu như là chỉnh bộ lọc cho hình ảnh á
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 32 : CÁC LỆNH EFFECT
+
+### 1. `Convert to Shape`
+
+* Công cụ này thì công dụng của nó là tạo hình bao quanh cái chữ
+
+* Thực hiện như sau :
+  
+  * Trước tiên phải biến đổi chữ qua dạng hình bằng `Create Outlines` 
+  
+  * Sau đó vào `Effect` → `Convert to Shape` → `Rectangle` → rồi nó hiện bảng lên cho chọn hình bao quanh, cài đặt cho cái hình đó
+
+### 2. `3D`
+
+* Tạo độ 3D cho đối tượng
+
+* Cách làm : trước tiên chọn đối tượng → `Effect` → `3D` → `Extrude & Bevel` → hiện bảng lên cho chỉnh
+  
+  ![3d.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-11-28-20-3d.PNG)
+  
+  * Khối hộp có thể xoay được, dùng để điều chỉnh độ xoay của hình, các hình bên cạnh cũng để điều chỉnh độ xoay mà bằng số liệu, có thể chỉnh bằng cách nào cũng được
+  
+  * `Map Art` : ấn vào đây nó sẽ mở ra thêm một bảng nữa để ta thêm một số biểu tượng vào đối tượng ở bất kỳ mặt nào nếu thích
+  
+  * `More Options` : bấm vào đây thì nó hiện thêm ra nhiều lựa chọn 
+    
+    ![op.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-11-59-23-op.PNG)
+    
+    Cái hình tròn đó là để điều chỉnh độ đổ bóng của cái hình, có thể đổi màu bóng ở phần `Shading Color` ở dưới
+
+### 3. Chuyển một đối tượng hình sang hình ảnh
+
+* Kiểu là một hình nào đó mình mới vẽ ra với nhiều chi tiết gì đi, chuyển sang hình ảnh như sau : `Object` → `Rasterize` → chỉnh sao tuỳ bạn rồi bấm `OK` 
+
+### 4. Kiểu 3D đối xứng
+
+* Tạo ra nguyên khối luôn từ một nét vẽ cũng được, nói chung từ một cái cho trước, có thể là nét có thể là hình, nó tạo ra một khối 3d đối xứng qua luôn
+
+* Ta làm như sau :
+  
+  * Đầu tiên tui có cái hình thế này : 
+    
+    ![oh no.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\8041c2a852c8749bb8682f0b06901a90b6e5203b.PNG)
+  
+  * Sau đó chọn hình đó → `Effect` → `3D` → `Revolve`  → hiện bảng lên cho chỉnh (cách dùng cũng khá tương tự phần `3D` trước)
+    
+    Nó ra được cái hình vầy đây sau khi tui chỉnh xong 
+    
+    ![xo.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\ee547118e94f89dde20dd7ef6f2661b1a3cf497d.PNG)
+  
+  ---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 33 : CÔNG CỤ SYMBOLS
+
+### 1. Cách tạo một Symbols :
+
+1. Đầu tiên bạn có thể tự tạo ra một đối tượng bạn muốn hoặc lấy một hình ảnh bạn thích để làm . Nếu bạn chọn lấy một hình ảnh, thì nhớ phải dùng `Image Trace` , chuyển sang `16 Colors` nếu nó có màu không phải trắng đen rồi `Expand` sau đó loại bỏ những phần không cần thiết
+
+2. Sau vào `Window` → `Symbols` để mở `Symbols` ra
+
+3. Kéo đối tượng mình muốn vào `Symbols` đặt tên gì đó tuỳ thích, rồi `OK` là xong
+
+#### ⚠ Với công cụ này bạn có thể chỉnh đối tượng đó nhỏ lớn, màu đậm nhạt, trên dưới cũng được (như clip)
+
+### 2. Sử dụng `Symbols`
+
+* Bạn có thể tô cái `Symbols` ra bằng cách chọn công cụ : ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-14-49-44-sym.PNG), sau khi chọn công cụ này bạn ấn chuột kéo tới đâu nó phun cái `Symbols` bạn chọn theo tới đó
+
+* ![di chuyển.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-14-57-37-di%20chuy%E1%BB%83n.PNG) : di chuyển symbol
+
+* ![sun.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-15-00-19-sun.PNG) : cái này tui không chắc nhưng tui thấy nó kiểu túm túm mấy cái đối tượng lại
+
+* ![](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-14-55-28-si.PNG) : phóng to cái symbol
+
+* ![xoay s.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-15-01-44-xoay%20s.PNG) : xoay symbol
+
+* ![đậm.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-15-03-10-%C4%91%E1%BA%ADm.PNG) : làm đậm màu đối tượng, ấn giữ lâu thì nó càng đậm, hoặc kích chọn càng nhiều lần nó càng đậm màu
+
+* ![mờ.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/28-15-04-58-m%E1%BB%9D.PNG) : làm mờ đối tượng, ấn giữ lâu là nó tàng hình luôn, hoặc kích chọn, kích càng nhiều nó càng mờ
+
+##### ![icons8_knowledge_sharing_30px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-15-11-06-icons8_knowledge_sharing_30px.png) Cũng giống như mấy cái đầu bút , cái này cũng có đầu tô, nên ấn đúp vào biểu tượng của nó lúc đang sử dụng có thể thay đổi kích thước đầu tô
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 34 : LAYER MASK
+
+
 
 
 
