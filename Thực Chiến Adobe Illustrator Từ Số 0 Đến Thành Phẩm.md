@@ -650,7 +650,7 @@ Sử dụng `Average` như sau :
 
 ### 2. Cách dùng `Clipping Mask`
 
-* Cái này cũng dùng để cắt hình thôi, làm mất cái hình bên ngoài : 
+* Cái này làm che mất cái hình bên ngoài : 
 
 Xem ví dụ cho dễ hiểu 
 
@@ -1275,6 +1275,66 @@ Chủ yếu bài này hướng dẫn cách tính sử dụng toạ độ đối 
 ---
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 34 : LAYER MASK
+
+* ### Công cụ `Layers` này kiểu là khi có một hình, nhưng ta không muốn nó hiện hết mà chỉ hiện một phần nào đó của hình thôi, và cái phần hiện đó có thể thay đổi nhờ di chuyển, mà nói chung khó hiểu làm ví dụ coi sẽ hiểu , thực hiện như sau :
+  
+  * Đầu tiên ta sẽ có một cái hình 
+  
+  * Sau đó có một cái khung hình nào bất kỳ ta mong muốn
+    
+    ![jaklfk.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/29-21-34-38-jaklfk.PNG)
+  
+  * Để mở `Layers` ta thực hiện vào `Window` → `Layer` hoặc `F7` 
+  
+  * Sau đó bấm vào biểu tượng này trong ô `Layers` : ![này.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\cfcb13a9353d1f91a240e396398f010dec43d1f8.PNG)
+  
+  * Lúc đó bạn có thể kéo cái khung hình mà bạn vẽ vào bất kỳ vị trí nào mà bạn muốn hiện của hình, hoặc bạn có thể di chuyển cái hình cũng được (trước đó bạn đặt khung vào vị trí trước cũng được)
+    
+    ![ad.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\4dcbb745ac0d234a0a1f4ae9108042ef3747d74a.PNG)
+    
+    ![có.PNG](C:\Users\Thanh%20Truc\AppData\Roaming\marktext\images\531a50c02c55c430045d4dbe9cb891b41e1a3d5d.PNG)
+    
+    Đó, bạn có thể di chuyển ở đâu bạn muốn cũng được
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 35 : LAYER VÀ BÀI TẬP
+
+### 1. Bài này cũng giới thiệu thêm về `Layers`
+
+Trong `Bài 10` đã có giới thiệu một công dụng của `Layers` là sắp xếp trên dưới bằng cách kéo lên, kéo xuống á
+
+* Trong ô `Layers` có thể thêm một lớp mới bằng cách bấm vào ![new layers.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/29-23-22-10-new%20layers.PNG), kích đúp vào cái lớp bạn muốn điều chỉnh để điều chỉnh tên các thứ (kích vào tên thì cho chỉnh tên ngay, kích đúp vào lớp nhưng né tên ra thì nó hiện một ô để chỉnh nhiều hơn)
+  
+  Hoặc có thể bấm vào ![gạch.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/29-23-39-54-g%E1%BA%A1ch.PNG) → `New Layer` 
+
+* Có thể thêm lớp phụ bằng cách bấm vào biểu tượng ![sublayer.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/29-23-25-38-sublayer.PNG), cũng có thể kích đúp vào để điều chỉnh tên các thứ của lớp phụ (cũng giống trong ngoặc ở trên)
+  
+  Hoặc bấm vào lớp bạn muốn thêm lớp phụ → bấm vào ![gạch.PNG](https://raw.githubusercontent.com/nhttruc/Image/master/2020/09/29-23-39-54-g%E1%BA%A1ch.PNG) → `New Sublayer` 
+
+### 2. Cách thêm layer hay sublayer mới :
+
+* Với mấy hình mà bạn tạo ra rồi bạn sợ nó bị lộn với layer khác hoặc khi nó lẫn qua layer khác rồi thì thực hiện như vầy:
+  
+  - Đầu tiên là tạo hình, chọn hình muốn làm layer
+  
+  - Sau đó `Ctrl+X` (cái này cắt là nó mất á nên nó giúp thoát khỏi mấy cái layer khi mà mình làm lộn cái)
+  
+  - Chọn vào biểu tượng cần để thêm layer mới hoặc sublayer mới để thêm vào
+  
+  - Sau đó `Ctrl+F` hoặc `Ctrl+V` cho nó hiện ra lại
+
+* Hoặc bạn có thể làm như sau :
+  
+  * Tạo trước một cái layer rồi đặt tên tuỳ
+  
+  * Sau đó bạn phải nhấn chọn cái layer mà bạn muốn thêm hình vào nha
+  
+  * Rồi bắt đầu thực hiện tạo hình các thứ là nó tự thêm vào cái layer đó
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 36 : THIẾT KẾ CÁC MẪU CARD VISIT
 
 
 
