@@ -1336,8 +1336,38 @@ Trong `Bài 10` đã có giới thiệu một công dụng của `Layers` là s�
 
 ## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 36 : THIẾT KẾ CÁC MẪU CARD VISIT
 
+##### Xem clip, clip này hướng dẫn một số thứ để thiết kế card visit.
 
+---
 
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 37 : THIẾT KẾ CÁC BỐ CỤC, HÌNH ẢNH
 
+#### Xem clip - giới thiệu một số cách thiết kế bố cục dạng hình tròn
 
-☆❖→↓⚠<img title="" src="https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-59-44-icons8_paint_palette_50px.png" alt="icons8_paint_palette_50px.png" width="50">![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png)![icons8_knowledge_sharing_30px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-15-11-06-icons8_knowledge_sharing_30px.png)![icons8_adobe_illustrator_26px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/24-16-54-42-icons8_adobe_illustrator_26px.png)
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 38 : THIẾT KẾ POSTER BANER
+
+##### Xem clip - clip này giới thiệu một số cách thiết kế bố cục theo dạng hình lục giác
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 39 : THIẾT KẾ POSTER MỸ PHẨM
+
+##### Xem clip , làm đẹp lắm á
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 40 : THIẾT KẾ NHÂN VẬT VÀ POSTER
+
+##### Xem clip coi thiết kế nhân vật
+
+---
+
+## ![icons8_adobe_illustrator_48px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-57-14-icons8_adobe_illustrator_48px.png) Bài 41 : LÊN MÀU VÀ CHUYỂN ẢNH SANG VECTOR CHO NHÂN VẬT
+
+##### Xem clip nốt
+
+----
+
+---------------------------------------------------------- Hết rồi -------------------------------------------------------
