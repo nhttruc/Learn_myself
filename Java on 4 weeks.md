@@ -284,7 +284,7 @@ System.out.println("Min của double = "+Double.MIN_VALUE);
 
 ## ✿ Bài 10: ÉP KIỂU DỮ LIỆU TRONG JAVA
 
-Trong quá trình tính toán đôi khi kết quả trả về không giống với kiểu dữ liệu mong muốn nên ta cần ép kiểu
+##### Trong quá trình tính toán đôi khi kết quả trả về không giống với kiểu dữ liệu mong muốn nên ta cần ép kiểu
 
 ### 1. Ép kiểu rộng
 
@@ -2352,21 +2352,5 @@ sv.xuatThongTin();
 ---
 
 ## ✿ Bài 64: OVERLOADING METHOD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ☆❖→✿❀⚠![icons8_java_32px.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-46-06-icons8_java_32px.png)![icons8_java_48px_1.png](https://raw.githubusercontent.com/nhttruc/Image/master/2020/08/23-15-44-20-icons8_java_48px_1.png)
