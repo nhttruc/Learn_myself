@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Hoc_nhap_xuat_C_sharp/1.0.0": {
+        "runtime": {
+          "Hoc_nhap_xuat_C_sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hoc_nhap_xuat_C_sharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

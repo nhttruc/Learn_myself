@@ -1,0 +1,13 @@
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\bin\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.exe
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\bin\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.deps.json
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\bin\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.runtimeconfig.json
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\bin\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.runtimeconfig.dev.json
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\bin\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.dll
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\bin\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.pdb
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\obj\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.csprojAssemblyReference.cache
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\obj\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.AssemblyInfoInputs.cache
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\obj\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.AssemblyInfo.cs
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\obj\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.csproj.CoreCompileInputs.cache
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\obj\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.dll
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\obj\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.pdb
+D:\NHTT_Taurus\Code\Code C#\Hoc_nhap_xuat_C_sharp\Hoc_nhap_xuat_C_sharp\obj\Debug\netcoreapp3.1\Hoc_nhap_xuat_C_sharp.genruntimeconfig.cache

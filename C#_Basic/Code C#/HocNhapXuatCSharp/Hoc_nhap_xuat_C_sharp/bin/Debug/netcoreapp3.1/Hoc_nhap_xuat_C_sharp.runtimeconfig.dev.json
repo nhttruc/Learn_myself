@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Taurus\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Taurus\\.nuget\\packages"
+    ]
+  }
+}
